@@ -1,0 +1,31 @@
+{
+  "total_cases": 3403,
+  "total_retrieved": 24153,
+  "total_confirmed": 3622,
+  "total_tp": 3535,
+  "total_fp": 87,
+  "total_excluded": 20531,
+  "exclusion_rate": 85.0,
+  "fp_type_stats": {
+    "C1": {
+      "count": 524,
+      "ratio": 2.55
+    },
+    "C2": {
+      "count": 4858,
+      "ratio": 23.66
+    },
+    "C3": {
+      "count": 1198,
+      "ratio": 5.84
+    },
+    "C4": {
+      "count": 9608,
+      "ratio": 46.8
+    },
+    "C5": {
+      "count": 4343,
+      "ratio": 21.15
+    }
+  }
+}

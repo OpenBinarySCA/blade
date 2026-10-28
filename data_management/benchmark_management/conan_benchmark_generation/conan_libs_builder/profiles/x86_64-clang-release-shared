@@ -1,0 +1,18 @@
+{% set compiler, version, compiler_exe = detect_api.detect_default_compiler() %}
+
+
+[settings]
+arch=x86_64
+build_type=Release
+compiler=clang
+compiler.version=14
+compiler.libcxx=libstdc++11
+compiler.cppstd=17
+os=Linux
+
+[options]
+*:shared=True
+
+[buildenv]
+CC=/usr/bin/clang
+CXX=/usr/bin/clang++

@@ -1,0 +1,2829 @@
+{
+  "summary": {
+    "total_fn": 236,
+    "fn_retrieval_failure": 185,
+    "fn_verification_exclusion": 51,
+    "fn_retrieval_ratio": 78.39,
+    "fn_verification_ratio": 21.61,
+    "total_fp": 87
+  },
+  "fn_retrieval_failures": [
+    {
+      "library": "coin-utils",
+      "binary_name": "clp",
+      "binary_hash": "9ff5f9cb83b8ba2f490fffa291ac6014e39ca5f5e9559a97c9c0521450dbd6b6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/coin-cgl/0.60.7/coin-cgl_0.60.7_x86_64-gcc-release-shared/full_deploy/host/coin-clp/1.17.7/Release/x86_64/bin/clp",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "coin-osi",
+      "binary_name": "clp",
+      "binary_hash": "9ff5f9cb83b8ba2f490fffa291ac6014e39ca5f5e9559a97c9c0521450dbd6b6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/coin-cgl/0.60.7/coin-cgl_0.60.7_x86_64-gcc-release-shared/full_deploy/host/coin-clp/1.17.7/Release/x86_64/bin/clp",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libquickfast.so",
+      "binary_hash": "8ca556fd672c5d4be0b806d7d1fd0a8f0a031d11c37c83be806f142ce71c5ce6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/quickfast/cci.20170314/quickfast_cci.20170314_arm_64-gcc-release-shared/full_deploy/host/quickfast/cci.20170314/Release/armv8/lib/libquickfast.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libquickfast.so",
+      "binary_hash": "1acea0b54f4d99e0423c46d5252c6e3ba72d5b7300318099e69d0b330570d27d",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/quickfast/cci.20170314/quickfast_cci.20170314_x86_64-gcc-release-shared/full_deploy/host/quickfast/cci.20170314/Release/x86_64/lib/libquickfast.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libquickfast.so",
+      "binary_hash": "5c0fdaf27e491718698d82e2d1167b9a593773ab07225d49816a9db744eea233",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/quickfast/cci.20170314/quickfast_cci.20170314_x86_64-clang-release-shared/full_deploy/host/quickfast/cci.20170314/Release/x86_64/lib/libquickfast.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "utf8proc",
+      "binary_name": "libiowow.so.1.4.18",
+      "binary_hash": "a4cbf556ae79a8bae284b8287a749b58698c16fbef0ead3a1a7f96d1a63487fc",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/iowow/1.4.18/iowow_1.4.18_x86_64-gcc-release-shared/full_deploy/host/iowow/1.4.18/Release/x86_64/lib/libiowow.so.1.4.18",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "MurmurHash3",
+      "binary_name": "libiowow.so.1.4.18",
+      "binary_hash": "a4cbf556ae79a8bae284b8287a749b58698c16fbef0ead3a1a7f96d1a63487fc",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/iowow/1.4.18/iowow_1.4.18_x86_64-gcc-release-shared/full_deploy/host/iowow/1.4.18/Release/x86_64/lib/libiowow.so.1.4.18",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "utf8proc",
+      "binary_name": "libiowow.so.1.4.18",
+      "binary_hash": "5704f8f143f2738a038da8171b83d94b16862cc31514a9ba9d4edb3a831252c0",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/iowow/1.4.18/iowow_1.4.18_x86_64-clang-release-shared/full_deploy/host/iowow/1.4.18/Release/x86_64/lib/libiowow.so.1.4.18",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "MurmurHash3",
+      "binary_name": "libiowow.so.1.4.18",
+      "binary_hash": "5704f8f143f2738a038da8171b83d94b16862cc31514a9ba9d4edb3a831252c0",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/iowow/1.4.18/iowow_1.4.18_x86_64-clang-release-shared/full_deploy/host/iowow/1.4.18/Release/x86_64/lib/libiowow.so.1.4.18",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "utf8proc",
+      "binary_name": "libiowow.so.1.4.18",
+      "binary_hash": "7b54adeff691dac125bfe653c2f0ecb0f92b8d96ad8528006071edfca85455c4",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/iowow/1.4.18/iowow_1.4.18_arm_64-gcc-release-shared/full_deploy/host/iowow/1.4.18/Release/armv8/lib/libiowow.so.1.4.18",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "MurmurHash3",
+      "binary_name": "libiowow.so.1.4.18",
+      "binary_hash": "7b54adeff691dac125bfe653c2f0ecb0f92b8d96ad8528006071edfca85455c4",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/iowow/1.4.18/iowow_1.4.18_arm_64-gcc-release-shared/full_deploy/host/iowow/1.4.18/Release/armv8/lib/libiowow.so.1.4.18",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "butteraugli",
+      "binary_name": "libjxl.so.0.11.1",
+      "binary_hash": "545797e70be924e0bcb645988d3945e0926cee84231ca77a35c84c1b61dad5bb",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libjxl/0.11.1/libjxl_0.11.1_x86_64-clang-release-shared/full_deploy/host/libjxl/0.11.1/Release/x86_64/lib/libjxl.so.0.11.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "libtommath",
+      "binary_name": "libwolfssl.so.42.2.0",
+      "binary_hash": "41e5f4cf4c68f578b794e34e8f6fb5c87fce47eb63c36a7586d06de71c142fc1",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/wolfssl/5.7.2/wolfssl_5.7.2_arm_64-gcc-release-shared/full_deploy/host/wolfssl/5.7.2/Release/armv8/lib/libwolfssl.so.42.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "libtommath",
+      "binary_name": "libwolfssl.so.42.2.0",
+      "binary_hash": "2f9801ec5693a04946aa9cfa4d787f14583e459e3105bfde115a1091ca255e4c",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/wolfssl/5.7.2/wolfssl_5.7.2_x86_64-clang-release-shared/full_deploy/host/wolfssl/5.7.2/Release/x86_64/lib/libwolfssl.so.42.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "libtommath",
+      "binary_name": "libwolfssl.so.42.2.0",
+      "binary_hash": "f8eee73974406445325e69c7c1da867da89d0b45bd26c7b07625198d642fb68a",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/wolfssl/5.7.2/wolfssl_5.7.2_x86_64-gcc-release-shared/full_deploy/host/wolfssl/5.7.2/Release/x86_64/lib/libwolfssl.so.42.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "libdd_opentracing.so.0",
+      "binary_hash": "2dc07b1afbc86a6c0ebdda380b2441ed863b43f70d9e50fdd06d70f6d6374d9c",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/dd-opentracing-cpp/1.3.7/dd-opentracing-cpp_1.3.7_x86_64-clang-release-shared/full_deploy/host/dd-opentracing-cpp/1.3.7/Release/x86_64/lib/libdd_opentracing.so.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "libdd_opentracing.so.0",
+      "binary_hash": "6f180e0fefb70c196cab38a4d36104ee1d06be64f08147c6302090246ffd4253",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/dd-opentracing-cpp/1.3.7/dd-opentracing-cpp_1.3.7_arm_64-gcc-release-shared/full_deploy/host/dd-opentracing-cpp/1.3.7/Release/armv8/lib/libdd_opentracing.so.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "libdd_opentracing.so.0",
+      "binary_hash": "b3d5ba292a604b2972a7604f53280ffdfac67480dc710fe447b0baa1457a1318",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/dd-opentracing-cpp/1.3.7/dd-opentracing-cpp_1.3.7_x86_64-gcc-release-shared/full_deploy/host/dd-opentracing-cpp/1.3.7/Release/x86_64/lib/libdd_opentracing.so.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "qdldl",
+      "binary_name": "libosqp.so",
+      "binary_hash": "250e6fee797e479994ccc26c340ab6350980e65ad024dc2b63b5859e60b43dc2",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/osqp/0.6.3/osqp_0.6.3_x86_64-clang-release-shared/full_deploy/host/osqp/0.6.3/Release/x86_64/lib/libosqp.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "bx",
+      "binary_name": "libbgfx.so",
+      "binary_hash": "9729909350d5f3f5d2d6c9d2f75699ed97736f9e48ea64cbf85f69c1e3532fb5",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/bgfx/cci.20230216/bgfx_cci.20230216_x86_64-clang-release-shared/full_deploy/host/bgfx/cci.20230216/Release/x86_64/lib/libbgfx.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "bx",
+      "binary_name": "libbgfx.so",
+      "binary_hash": "745755c3fcb7531510014044c28be403fdb592f690d1adb71e746a6abff4e9f4",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/bgfx/cci.20230216/bgfx_cci.20230216_x86_64-gcc-release-shared/full_deploy/host/bgfx/cci.20230216/Release/x86_64/lib/libbgfx.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "gn",
+      "binary_name": "gn",
+      "binary_hash": "5255cdfa6049b7d670462605b2c20c0b7b699f0bb42531ce943c763eee204e19",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/gn/cci.20240611/gn_cci.20240611_x86_64-gcc-release-shared/full_deploy/host/gn/cci.20240611/Release/x86_64/bin/gn",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "pcg-c",
+      "binary_name": "libopen62541.so.1.4.11",
+      "binary_hash": "805dc19c25e7fd6dba72ef3e02e61fda0aa6698968d92454b0b0925460d206ed",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/open62541/1.4.11.1/open62541_1.4.11.1_arm_64-gcc-release-shared/full_deploy/host/open62541/1.4.11.1/Release/armv8/lib/libopen62541.so.1.4.11",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "pcg-c",
+      "binary_name": "libopen62541.so.1.4.11",
+      "binary_hash": "8d96d8d149a402fb66029d35129d7560b916a5c8304b17e3e448a51f557b1db8",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/open62541/1.4.11.1/open62541_1.4.11.1_x86_64-clang-release-shared/full_deploy/host/open62541/1.4.11.1/Release/x86_64/lib/libopen62541.so.1.4.11",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "pcg-c",
+      "binary_name": "libopen62541.so.1.4.11",
+      "binary_hash": "dd659e07c64c5a2824a3d2fd2654b164470ba664281dad704f393b9c09cbaedb",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/open62541/1.4.11.1/open62541_1.4.11.1_x86_64-gcc-release-shared/full_deploy/host/open62541/1.4.11.1/Release/x86_64/lib/libopen62541.so.1.4.11",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xxhash",
+      "binary_name": "liblz4.so.1.9.2",
+      "binary_hash": "f5258f6185ac839ff23b2a2e5b40e00d8b30b79228db8c4684aca23142c15ef1",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/rsync/3.2.7/rsync_3.2.7_arm_64-gcc-release-shared/full_deploy/host/lz4/1.9.2/Release/armv8/lib/liblz4.so.1.9.2",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xxhash",
+      "binary_name": "liblz4.so.1.9.2",
+      "binary_hash": "58d923c28b9cf3864d75e0d0409e7ba37a8de68e6998c740f0cfa86dc2adb9bc",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/rsync/3.2.7/rsync_3.2.7_x86_64-clang-release-shared/full_deploy/host/lz4/1.9.2/Release/x86_64/lib/liblz4.so.1.9.2",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xxhash",
+      "binary_name": "liblz4.so.1.9.2",
+      "binary_hash": "dc27644e9d1911efac8922d0ddbb0be6ae6dea12e2df8f2142823a47a61d1a80",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/rsync/3.2.7/rsync_3.2.7_x86_64-gcc-release-shared/full_deploy/host/lz4/1.9.2/Release/x86_64/lib/liblz4.so.1.9.2",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "librasterlite2",
+      "binary_name": "librasterlite.so.2.0.0",
+      "binary_hash": "277b4dfd364d1a8d4bb36994a7ce37e2255dbdfbfa9f5e5e3c459f6ffb1122c5",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/librasterlite/1.1g/librasterlite_1.1g_x86_64-gcc-release-shared/full_deploy/host/librasterlite/1.1g/Release/x86_64/lib/librasterlite.so.2.0.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "librasterlite2",
+      "binary_name": "librasterlite.so.2.0.0",
+      "binary_hash": "3cdb05e1f56f8b2d61c522473ba419295f8ff5f46dfba6cd0b71f8ede2ad6aec",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/librasterlite/1.1g/librasterlite_1.1g_x86_64-clang-release-shared/full_deploy/host/librasterlite/1.1g/Release/x86_64/lib/librasterlite.so.2.0.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "r8brain-free-src",
+      "binary_name": "libr8brain.so",
+      "binary_hash": "8005897fc9710ccee2fd5f12a7a8a16da144a3fc8dc80d8f2f0519f94cbfa29e",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/r8brain-free-src/6.5/r8brain-free-src_6.5_arm_64-gcc-release-shared/full_deploy/host/r8brain-free-src/6.5/Release/armv8/lib/libr8brain.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "objectbox-generator",
+      "binary_name": "objectbox-generator",
+      "binary_hash": "80459323c5b6a11b89b6180e1274b734115bb3f0a9703849b1f98f9331b502df",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/objectbox-generator/0.13.0/objectbox-generator_0.13.0_x86_64-clang-release-shared/full_deploy/host/objectbox-generator/0.13.0/x86_64/bin/objectbox-generator",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "lyra",
+      "binary_name": "b2",
+      "binary_hash": "7f5b3e72b59ce644effbc629387511581336ba346d8b5e49c47393e810f93ed6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/b2/5.3.3/b2_5.3.3_x86_64-gcc-release-shared/full_deploy/host/b2/5.3.3/x86_64/bin/b2",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "b2",
+      "binary_hash": "7f5b3e72b59ce644effbc629387511581336ba346d8b5e49c47393e810f93ed6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/b2/5.3.3/b2_5.3.3_x86_64-gcc-release-shared/full_deploy/host/b2/5.3.3/x86_64/bin/b2",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "stb",
+      "binary_name": "libsixel.so.1.0.0",
+      "binary_hash": "754ad79363ff18cff57ac277c5e83cec9ff93a7960709ff284832452ac4dfaba",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libsixel/1.10.3/libsixel_1.10.3_x86_64-clang-release-shared/full_deploy/host/libsixel/1.10.3/Release/x86_64/lib/libsixel.so.1.0.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "stb",
+      "binary_name": "libsixel.so.1.0.0",
+      "binary_hash": "52edb56acbad6a5ecd8f7ef594c464199fdc273b75065c02f2b519c5faf294db",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libsixel/1.10.3/libsixel_1.10.3_x86_64-gcc-release-shared/full_deploy/host/libsixel/1.10.3/Release/x86_64/lib/libsixel.so.1.0.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "libvault.so.0.59.0",
+      "binary_hash": "c2e93c7d9b798ccfda8910319fd80ab5cac8d813774539ad37336ce82f8160b4",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libvault/0.59.0/libvault_0.59.0_x86_64-gcc-release-shared/full_deploy/host/libvault/0.59.0/Release/x86_64/lib/libvault.so.0.59.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "libvault.so.0.59.0",
+      "binary_hash": "6b2598d99a01eb3157accb63dfee40e8598301c0a78dd65d173d39f82f713065",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libvault/0.59.0/libvault_0.59.0_arm_64-gcc-release-shared/full_deploy/host/libvault/0.59.0/Release/armv8/lib/libvault.so.0.59.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "libvault.so.0.59.0",
+      "binary_hash": "6123ad581079fd8b597d824d8e5d208c0fe523c9ec59345ff7fe2ea554ef52fa",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libvault/0.59.0/libvault_0.59.0_x86_64-clang-release-shared/full_deploy/host/libvault/0.59.0/Release/x86_64/lib/libvault.so.0.59.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xmp",
+      "binary_name": "libuhdr.so.1.4.0",
+      "binary_hash": "33fd5d67f68dae063069fded80efcd14f72165b281472738f9c3e170b5077cfc",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libultrahdr/1.4.0/libultrahdr_1.4.0_x86_64-clang-release-shared/full_deploy/host/libultrahdr/1.4.0/Release/x86_64/lib/libuhdr.so.1.4.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xmp",
+      "binary_name": "libuhdr.so.1.4.0",
+      "binary_hash": "9c5a8e21b514165ddab3ed19ec9bfa7321a66f7d8e734fa29f5578ea00a47196",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libultrahdr/1.4.0/libultrahdr_1.4.0_x86_64-gcc-release-shared/full_deploy/host/libultrahdr/1.4.0/Release/x86_64/lib/libuhdr.so.1.4.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "pcg-c",
+      "binary_name": "libopen62541.so.1.4.6",
+      "binary_hash": "5320d4c18d50da56f1e2e7bf1c7a4006be82206e45fbdcf4026aaa733efdc259",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/open62541pp/0.17.0/open62541pp_0.17.0_x86_64-clang-release-shared/full_deploy/host/open62541/1.4.6/Release/x86_64/lib/libopen62541.so.1.4.6",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "pcg-c",
+      "binary_name": "libopen62541.so.1.4.6",
+      "binary_hash": "c3b76737a6b97cdb9996f353befe2b10c77f0bf800a3b91527f0530a375dfe24",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/open62541pp/0.17.0/open62541pp_0.17.0_arm_64-gcc-release-shared/full_deploy/host/open62541/1.4.6/Release/armv8/lib/libopen62541.so.1.4.6",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "pcg-c",
+      "binary_name": "libopen62541.so.1.4.6",
+      "binary_hash": "3739a6fd988658b00700e40adb24463608d6690716d402d37cdaadebe6a469bf",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/open62541pp/0.17.0/open62541pp_0.17.0_x86_64-gcc-release-shared/full_deploy/host/open62541/1.4.6/Release/x86_64/lib/libopen62541.so.1.4.6",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "asio",
+      "binary_name": "liblsl.so.1.16.2",
+      "binary_hash": "decc44f7b5138b17768ac140db637420b6a116e881ced54a8465f5d7fbdec5d4",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/liblsl/1.16.2/liblsl_1.16.2_arm_64-gcc-release-shared/full_deploy/host/liblsl/1.16.2/Release/armv8/lib/liblsl.so.1.16.2",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "asio",
+      "binary_name": "liblsl.so.1.16.2",
+      "binary_hash": "81adb91738e52257bd1203c36d348d9d343808f1acc5e08ea8dd19574dc09b1d",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/liblsl/1.16.2/liblsl_1.16.2_x86_64-gcc-release-shared/full_deploy/host/liblsl/1.16.2/Release/x86_64/lib/liblsl.so.1.16.2",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "eigen",
+      "binary_name": "libgtsam.so.4.2.0",
+      "binary_hash": "a9f9abfea28c9fb315205e33d310cb65ea08683ab5c8cd6ba628988d241cda54",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/gtsam/4.2.0a9/gtsam_4.2.0a9_x86_64-clang-release-shared/full_deploy/host/gtsam/4.2.0a9/Release/x86_64/lib/libgtsam.so.4.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "suitesparse",
+      "binary_name": "libgtsam.so.4.2.0",
+      "binary_hash": "a9f9abfea28c9fb315205e33d310cb65ea08683ab5c8cd6ba628988d241cda54",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/gtsam/4.2.0a9/gtsam_4.2.0a9_x86_64-clang-release-shared/full_deploy/host/gtsam/4.2.0a9/Release/x86_64/lib/libgtsam.so.4.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "eigen",
+      "binary_name": "libgtsam.so.4.2.0",
+      "binary_hash": "92094915e85519f9abe62a081e08f17a649e2b58af2f59e58b5a551564e710f3",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/gtsam/4.2.0a9/gtsam_4.2.0a9_x86_64-gcc-release-shared/full_deploy/host/gtsam/4.2.0a9/Release/x86_64/lib/libgtsam.so.4.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "suitesparse",
+      "binary_name": "libgtsam.so.4.2.0",
+      "binary_hash": "92094915e85519f9abe62a081e08f17a649e2b58af2f59e58b5a551564e710f3",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/gtsam/4.2.0a9/gtsam_4.2.0a9_x86_64-gcc-release-shared/full_deploy/host/gtsam/4.2.0a9/Release/x86_64/lib/libgtsam.so.4.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "eigen",
+      "binary_name": "libgtsam.so.4.2.0",
+      "binary_hash": "39dd8f635601615ce8d0b1ae55e17a0536cc4c219e4b97f2f8f8420df5f9ea11",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/gtsam/4.2.0a9/gtsam_4.2.0a9_arm_64-gcc-release-shared/full_deploy/host/gtsam/4.2.0a9/Release/armv8/lib/libgtsam.so.4.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "suitesparse",
+      "binary_name": "libgtsam.so.4.2.0",
+      "binary_hash": "39dd8f635601615ce8d0b1ae55e17a0536cc4c219e4b97f2f8f8420df5f9ea11",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/gtsam/4.2.0a9/gtsam_4.2.0a9_arm_64-gcc-release-shared/full_deploy/host/gtsam/4.2.0a9/Release/armv8/lib/libgtsam.so.4.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "asio",
+      "binary_name": "libfoxglove_websocket.so",
+      "binary_hash": "ea86c3058ef61d668cced4424a155c420c48a9a243b2c594d8bc4a18aa3e012d",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/foxglove-websocket/1.4.0/foxglove-websocket_1.4.0_arm_64-gcc-release-shared/full_deploy/host/foxglove-websocket/1.4.0/Release/armv8/lib/libfoxglove_websocket.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "butteraugli",
+      "binary_name": "guetzli",
+      "binary_hash": "f70ccd907c2d4de05246763fe98de01e719f09364c2c3621cc19a8203c8fd751",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/guetzli/1.0.1/guetzli_1.0.1_arm_64-gcc-release-shared/full_deploy/host/guetzli/1.0.1/Release/armv8/bin/guetzli",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "butteraugli",
+      "binary_name": "guetzli",
+      "binary_hash": "7a20bac2974baf1e9b02fa58e04d2fe478c2e3c0c9a9974186f0eb5cc5438b3e",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/guetzli/1.0.1/guetzli_1.0.1_x86_64-gcc-release-shared/full_deploy/host/guetzli/1.0.1/Release/x86_64/bin/guetzli",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libmailio.so",
+      "binary_hash": "532b49b427176023bcb0663ba34830bd756db35dc858e56c9fd7b408d3453135",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/mailio/0.24.1/mailio_0.24.1_x86_64-clang-release-shared/full_deploy/host/mailio/0.24.1/Release/x86_64/lib/libmailio.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libmailio.so",
+      "binary_hash": "3653996ad5c33961b9e6cc8e44065bf309ce72e91c5671e02c1b9dc2ddc2e80d",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/mailio/0.24.1/mailio_0.24.1_arm_64-gcc-release-shared/full_deploy/host/mailio/0.24.1/Release/armv8/lib/libmailio.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libmailio.so",
+      "binary_hash": "c5e4f50dcb1077d3530ef10c3d17284c38055636883a7a87389f0624dc8a57ff",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/mailio/0.24.1/mailio_0.24.1_x86_64-gcc-release-shared/full_deploy/host/mailio/0.24.1/Release/x86_64/lib/libmailio.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "flatbuffers",
+      "binary_name": "libarrow.so.2000.0.0",
+      "binary_hash": "71b99a190c04ad18c68b38d56640a6d7f89ae1af6e91e377f9af9e4bcfef517a",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/arrow/20.0.0/arrow_20.0.0_x86_64-clang-release-shared/full_deploy/host/arrow/20.0.0/Release/x86_64/lib/libarrow.so.2000.0.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "flatbuffers",
+      "binary_name": "libarrow.so.2000.0.0",
+      "binary_hash": "a84ac98f5e2bfd2d37a38b9790a3844b9d65535cd62b9bd4cbe6b093c2c4e638",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/arrow/20.0.0/arrow_20.0.0_x86_64-gcc-release-shared/full_deploy/host/arrow/20.0.0/Release/x86_64/lib/libarrow.so.2000.0.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "flatbuffers",
+      "binary_name": "libarrow.so.2000.0.0",
+      "binary_hash": "ad7397a7640cdfecd6c3739348e2ccf8a33b8135e1511c75138be89d0bb94f44",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/arrow/20.0.0/arrow_20.0.0_arm_64-gcc-release-shared/full_deploy/host/arrow/20.0.0/Release/armv8/lib/libarrow.so.2000.0.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "libtommath",
+      "binary_name": "libtcl8.6.so",
+      "binary_hash": "bb35a454c9173149ed524a8c357d0208855c923035895d4b4059a9358ec8b36f",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tcl/8.6.13/tcl_8.6.13_x86_64-clang-release-shared/full_deploy/host/tcl/8.6.13/Release/x86_64/lib/libtcl8.6.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "libtommath",
+      "binary_name": "libtcl8.6.so",
+      "binary_hash": "e73729edb68538ff9d0d133d2fd5426824edbae064d946b994b72ec4e3d73194",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tcl/8.6.13/tcl_8.6.13_x86_64-gcc-release-shared/full_deploy/host/tcl/8.6.13/Release/x86_64/lib/libtcl8.6.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "libtommath",
+      "binary_name": "libtcl8.6.so",
+      "binary_hash": "022c27fdd5971566d3dd675ca0eec2843f61063fcf3e9fbc853c7d1fe3fabb35",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tcl/8.6.13/tcl_8.6.13_arm_64-gcc-release-shared/full_deploy/host/tcl/8.6.13/Release/armv8/lib/libtcl8.6.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libTgBot.so.1",
+      "binary_hash": "51b393c2a16e6b49aeb62198fdae0fd68bda382c4cac74834974b9d6fecc55ce",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tgbot/1.8/tgbot_1.8_x86_64-clang-release-shared/full_deploy/host/tgbot/1.8/Release/x86_64/lib/libTgBot.so.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libTgBot.so.1",
+      "binary_hash": "def9df03e56be751774cd93cc983079eb79ff51378a3a9d681d5b311886253a6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tgbot/1.8/tgbot_1.8_x86_64-gcc-release-shared/full_deploy/host/tgbot/1.8/Release/x86_64/lib/libTgBot.so.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "yuarel",
+      "binary_name": "libulfius.so.2.7.11",
+      "binary_hash": "df682db3514b056ea1f5f27ed4dd2df9cc40c9f5f84203a068459ec42b4b7c31",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/ulfius/2.7.11/ulfius_2.7.11_x86_64-clang-release-shared/full_deploy/host/ulfius/2.7.11/Release/x86_64/lib/libulfius.so.2.7.11",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "yuarel",
+      "binary_name": "libulfius.so.2.7.11",
+      "binary_hash": "b5a6cecb99ed94df9957c5efe7d778c473b21d3b084a4f6bd545e3ce6bb7e999",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/ulfius/2.7.11/ulfius_2.7.11_x86_64-gcc-release-shared/full_deploy/host/ulfius/2.7.11/Release/x86_64/lib/libulfius.so.2.7.11",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libscip.so.9.2.0.0",
+      "binary_hash": "cc6ae84e856b678e02e064b8234613daed8a9f34b6c43f7f3626634c424b17fd",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/scip/9.2.0/scip_9.2.0_arm_64-gcc-release-shared/full_deploy/host/scip/9.2.0/Release/armv8/lib/libscip.so.9.2.0.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libsoplexshared.so.7.1.2.0",
+      "binary_hash": "df7ce5af70c9db8fdbb7c6c26da1c0571b10ebb0ccff1de04b3b137ffa0449b4",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/scip/9.2.0/scip_9.2.0_arm_64-gcc-release-shared/full_deploy/host/soplex/7.1.2/Release/armv8/lib/libsoplexshared.so.7.1.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libscip.so.9.2.0.0",
+      "binary_hash": "e73f66eac013ae56309ac20fd12043c27c6d05bb284a84860454e4a938eaed84",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/scip/9.2.0/scip_9.2.0_x86_64-clang-release-shared/full_deploy/host/scip/9.2.0/Release/x86_64/lib/libscip.so.9.2.0.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libsoplexshared.so.7.1.2.0",
+      "binary_hash": "e387d23042ebc691d9362ad6832d0e916b40fd7fa5534a9d4e8f8bf997dc851f",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/scip/9.2.0/scip_9.2.0_x86_64-clang-release-shared/full_deploy/host/soplex/7.1.2/Release/x86_64/lib/libsoplexshared.so.7.1.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libscip.so.9.2.0.0",
+      "binary_hash": "11c21c7c53bdb6f669f536a240c5ac7f98698f2ec4a13105e9b8ca995a1e8b0f",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/scip/9.2.0/scip_9.2.0_x86_64-gcc-release-shared/full_deploy/host/scip/9.2.0/Release/x86_64/lib/libscip.so.9.2.0.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libsoplexshared.so.7.1.2.0",
+      "binary_hash": "c7a3cfe146adbe4a9417973dc1682ef89256719c0449f8bef38f89770f3536f6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/scip/9.2.0/scip_9.2.0_x86_64-gcc-release-shared/full_deploy/host/soplex/7.1.2/Release/x86_64/lib/libsoplexshared.so.7.1.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "gnulib",
+      "binary_name": "tar",
+      "binary_hash": "c698cf2e020da0e7864bab13dd3c38e8c51736ee3cf0e7ed29a03c15893bf253",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tar/1.35/tar_1.35_arm_64-gcc-release-shared/full_deploy/host/tar/1.35/Release/armv8/bin/tar",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "gnulib",
+      "binary_name": "tar",
+      "binary_hash": "28656e4845dd2fd30f01b134bfc93963199233b5a9cad6eb2c019a78b5f60678",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tar/1.35/tar_1.35_x86_64-clang-release-shared/full_deploy/host/tar/1.35/Release/x86_64/bin/tar",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "gcc",
+      "binary_name": "x86_64-pc-linux-gnu-gcc-12.2.0",
+      "binary_hash": "c105119600587e267114a70e0a3b59188dcb948a3631a0af438da23904aa4fdf",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/gcc/12.2.0/gcc_12.2.0_x86_64-clang-release-shared/full_deploy/host/gcc/12.2.0/Release/x86_64/bin/x86_64-pc-linux-gnu-gcc-12.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libftp.so",
+      "binary_hash": "079b2333a236781cdbc4f29daf8ac4c151a80b7de95cd0e24446ca569cc6010d",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libftp/1.5.0/libftp_1.5.0_arm_64-gcc-release-shared/full_deploy/host/libftp/1.5.0/Release/armv8/lib/libftp.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libftp.so",
+      "binary_hash": "bc6325ff7d7ac26737a3e79f46d6f17e37366d7d3d651fa5a73a0826e66a7bcf",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libftp/1.5.0/libftp_1.5.0_x86_64-gcc-release-shared/full_deploy/host/libftp/1.5.0/Release/x86_64/lib/libftp.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libftp.so",
+      "binary_hash": "d7225e6ed321182482334399c351448fd02e58fbf4e43e2c91556ea49f800cea",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libftp/1.5.0/libftp_1.5.0_x86_64-clang-release-shared/full_deploy/host/libftp/1.5.0/Release/x86_64/lib/libftp.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "cxxopts",
+      "binary_name": "ktx",
+      "binary_hash": "bbf756655d5ba9a895d910d6b8295f0f803a491ee25b94231bfbbecfe063ad67",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/ktx/4.3.2/ktx_4.3.2_x86_64-gcc-release-shared/full_deploy/host/ktx/4.3.2/Release/x86_64/bin/ktx",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "cxxopts",
+      "binary_name": "ktx",
+      "binary_hash": "b82082e3399260ba802b8d594798fe9a62c07337f743dc8bc4ad8c5b4ca720b7",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/ktx/4.3.2/ktx_4.3.2_x86_64-clang-release-shared/full_deploy/host/ktx/4.3.2/Release/x86_64/bin/ktx",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "cxxopts",
+      "binary_name": "ktx",
+      "binary_hash": "bc0586a6c67b2975286fdda86f4e14b902bf809b88855074d5c60ec142eef9b2",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/ktx/4.3.2/ktx_4.3.2_arm_64-gcc-release-shared/full_deploy/host/ktx/4.3.2/Release/armv8/bin/ktx",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "libfunctions_framework_cpp.so.1.2.0",
+      "binary_hash": "2f4832b093e7bc5f0bfb428acbdcc620f7bed1b4267f942151dc49d62d56ad16",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/functions-framework-cpp/1.2.0/functions-framework-cpp_1.2.0_x86_64-clang-release-shared/full_deploy/host/functions-framework-cpp/1.2.0/Release/x86_64/lib/libfunctions_framework_cpp.so.1.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "libfunctions_framework_cpp.so.1.2.0",
+      "binary_hash": "6f228fb9f8e2026478dbf4d7b82e69b33f7c36ca38d828447bc348c29bc484ee",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/functions-framework-cpp/1.2.0/functions-framework-cpp_1.2.0_x86_64-gcc-release-shared/full_deploy/host/functions-framework-cpp/1.2.0/Release/x86_64/lib/libfunctions_framework_cpp.so.1.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "cn-cbor",
+      "binary_name": "libcose-c.so",
+      "binary_hash": "fefbe2ec5c1121eacc80a9c1da80685b182ce4063275a451005cabd99ba94616",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cose-c/cci.20200430/cose-c_cci.20200430_x86_64-clang-release-shared/full_deploy/host/cose-c/cci.20200430/Release/x86_64/lib/libcose-c.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "cn-cbor",
+      "binary_name": "libcose-c.so",
+      "binary_hash": "204a8493c2023afe4d2dd975396a47209b1d8fd7beb9a0b82c6503bccb293769",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cose-c/cci.20200430/cose-c_cci.20200430_arm_64-gcc-release-shared/full_deploy/host/cose-c/cci.20200430/Release/armv8/lib/libcose-c.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "cn-cbor",
+      "binary_name": "libcose-c.so",
+      "binary_hash": "a508574758794ecf1e50440b99ee9b9154aad95ab1259a89adf873707e8a7349",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cose-c/cci.20200430/cose-c_cci.20200430_x86_64-gcc-release-shared/full_deploy/host/cose-c/cci.20200430/Release/x86_64/lib/libcose-c.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libhazelcast-cpp-client.so.5.3",
+      "binary_hash": "08e3658421b659a0511a1a357c87c46b9da2c7ce02805fdc55e1e1841b5844b4",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/hazelcast-cpp-client/5.3.0/hazelcast-cpp-client_5.3.0_arm_64-gcc-release-shared/full_deploy/host/hazelcast-cpp-client/5.3.0/Release/armv8/lib/libhazelcast-cpp-client.so.5.3",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libhazelcast-cpp-client.so.5.3",
+      "binary_hash": "01a8ab49eb88d6223acd0f55fa98995dafd682cfa9cc1c2937a690e6fa267b56",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/hazelcast-cpp-client/5.3.0/hazelcast-cpp-client_5.3.0_x86_64-gcc-release-shared/full_deploy/host/hazelcast-cpp-client/5.3.0/Release/x86_64/lib/libhazelcast-cpp-client.so.5.3",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libhazelcast-cpp-client.so.5.3",
+      "binary_hash": "b32bf76d2b1ba3930a8a38c72cd3f53156556692f6cd265751bf9a6f34332122",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/hazelcast-cpp-client/5.3.0/hazelcast-cpp-client_5.3.0_x86_64-clang-release-shared/full_deploy/host/hazelcast-cpp-client/5.3.0/Release/x86_64/lib/libhazelcast-cpp-client.so.5.3",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "cppbenchmark",
+      "binary_name": "libcppbenchmark.so",
+      "binary_hash": "68741895100df2a5d903134e1f6cbdce44e4e4a5442c88875fe07f65b9034a06",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cppbenchmark/cci.20201029/cppbenchmark_cci.20201029_x86_64-gcc-release-shared/full_deploy/host/cppbenchmark/cci.20201029/Release/x86_64/lib/libcppbenchmark.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "cppbenchmark",
+      "binary_name": "libcppbenchmark.so",
+      "binary_hash": "29c89084951ba046386ed2cbea225aaa13157bbfd6863f3de6e843373548230c",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cppbenchmark/cci.20201029/cppbenchmark_cci.20201029_arm_64-gcc-release-shared/full_deploy/host/cppbenchmark/cci.20201029/Release/armv8/lib/libcppbenchmark.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "cppbenchmark",
+      "binary_name": "libcppbenchmark.so",
+      "binary_hash": "9ce0e2262638f52035f97c025d581d8f2e0e3fb5d77f691802a0ea2d0c3a3146",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cppbenchmark/cci.20201029/cppbenchmark_cci.20201029_x86_64-clang-release-shared/full_deploy/host/cppbenchmark/cci.20201029/Release/x86_64/lib/libcppbenchmark.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "lz4",
+      "binary_name": "libblosc2.so.2.17.0",
+      "binary_hash": "f322d17a93ad946e19651efe00015a8e16704b845e5c02832d499ad8d0927847",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/c-blosc2/2.17.0/c-blosc2_2.17.0_arm_64-gcc-release-shared/full_deploy/host/c-blosc2/2.17.0/Release/armv8/lib/libblosc2.so.2.17.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "zfp",
+      "binary_name": "libblosc2.so.2.17.0",
+      "binary_hash": "f322d17a93ad946e19651efe00015a8e16704b845e5c02832d499ad8d0927847",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/c-blosc2/2.17.0/c-blosc2_2.17.0_arm_64-gcc-release-shared/full_deploy/host/c-blosc2/2.17.0/Release/armv8/lib/libblosc2.so.2.17.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "lz4",
+      "binary_name": "libblosc2.so.2.17.0",
+      "binary_hash": "35b429928a9f73abecaedb00ae5ae86667753d9876f0050276238e28a180a3fa",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/c-blosc2/2.17.0/c-blosc2_2.17.0_x86_64-clang-release-shared/full_deploy/host/c-blosc2/2.17.0/Release/x86_64/lib/libblosc2.so.2.17.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "zfp",
+      "binary_name": "libblosc2.so.2.17.0",
+      "binary_hash": "35b429928a9f73abecaedb00ae5ae86667753d9876f0050276238e28a180a3fa",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/c-blosc2/2.17.0/c-blosc2_2.17.0_x86_64-clang-release-shared/full_deploy/host/c-blosc2/2.17.0/Release/x86_64/lib/libblosc2.so.2.17.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "lz4",
+      "binary_name": "libblosc2.so.2.17.0",
+      "binary_hash": "dd6d2ee7b92481b050b575112164721d02c19d9df1113078cb56803517b39b25",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/c-blosc2/2.17.0/c-blosc2_2.17.0_x86_64-gcc-release-shared/full_deploy/host/c-blosc2/2.17.0/Release/x86_64/lib/libblosc2.so.2.17.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "zfp",
+      "binary_name": "libblosc2.so.2.17.0",
+      "binary_hash": "dd6d2ee7b92481b050b575112164721d02c19d9df1113078cb56803517b39b25",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/c-blosc2/2.17.0/c-blosc2_2.17.0_x86_64-gcc-release-shared/full_deploy/host/c-blosc2/2.17.0/Release/x86_64/lib/libblosc2.so.2.17.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "librotor.so",
+      "binary_hash": "30e6d52842510443bdcbd264b785b44429735d0a0eeb0fcaa56fadc5b74bb727",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/rotor/0.34/rotor_0.34_x86_64-gcc-release-shared/full_deploy/host/rotor/0.34/Release/x86_64/lib/librotor.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "librotor.so",
+      "binary_hash": "8374bdb4cbcc3cf6ee2659cbf1dec39897dff88b0991e42fd599307d071e2a38",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/rotor/0.34/rotor_0.34_x86_64-clang-release-shared/full_deploy/host/rotor/0.34/Release/x86_64/lib/librotor.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "librotor.so",
+      "binary_hash": "0b1625a76bd82f72fea6aa90d6a31513009ed9b4209c59702acf5b0b8a91f613",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/rotor/0.34/rotor_0.34_arm_64-gcc-release-shared/full_deploy/host/rotor/0.34/Release/armv8/lib/librotor.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "zlib",
+      "binary_name": "libglpk.so.40.3.1",
+      "binary_hash": "0a5c6dc2a444b06f7784c48ae2dc5ba32842b6d903878470132398d4d7a40cb2",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/glpk/5.0/glpk_5.0_x86_64-gcc-release-shared/full_deploy/host/glpk/5.0/Release/x86_64/lib/libglpk.so.40.3.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "zlib",
+      "binary_name": "libglpk.so.40.3.1",
+      "binary_hash": "0fc1f96277e698a0ebefc615793db434774c2e91372b2449aab1c45387ccf3c3",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/glpk/5.0/glpk_5.0_x86_64-clang-release-shared/full_deploy/host/glpk/5.0/Release/x86_64/lib/libglpk.so.40.3.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "zlib",
+      "binary_name": "libglpk.so.40.3.1",
+      "binary_hash": "78136eec3161d627f74de30558c6653f1c74601c591d51078d0bcae9fc066afe",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/glpk/5.0/glpk_5.0_arm_64-gcc-release-shared/full_deploy/host/glpk/5.0/Release/armv8/lib/libglpk.so.40.3.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "beauty",
+      "binary_name": "libbeauty.so.1.0.1-rc",
+      "binary_hash": "e1959666aa66807a7cba2502fc3a00eed2f373be8acb030453c399e4655331ac",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/beauty/1.0.4/beauty_1.0.4_arm_64-gcc-release-shared/full_deploy/host/beauty/1.0.4/Release/armv8/lib/libbeauty.so.1.0.1-rc",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "beauty",
+      "binary_name": "libbeauty.so.1.0.1-rc",
+      "binary_hash": "e15a622363778aaef6f9cd1cabede1acc0fb8052d3f9ec9124a11ea9c011c71b",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/beauty/1.0.4/beauty_1.0.4_x86_64-gcc-release-shared/full_deploy/host/beauty/1.0.4/Release/x86_64/lib/libbeauty.so.1.0.1-rc",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "onednn",
+      "binary_name": "libopenvino.so.2025.2.0",
+      "binary_hash": "caaa1715fea0534c94056a31b0cf44a00a650a99224913db420c39de31d32506",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/openvino/2025.2.0/openvino_2025.2.0_x86_64-gcc-release-shared/full_deploy/host/openvino/2025.2.0/Release/x86_64/lib/libopenvino.so.2025.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xbyak",
+      "binary_name": "libopenvino.so.2025.2.0",
+      "binary_hash": "caaa1715fea0534c94056a31b0cf44a00a650a99224913db420c39de31d32506",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/openvino/2025.2.0/openvino_2025.2.0_x86_64-gcc-release-shared/full_deploy/host/openvino/2025.2.0/Release/x86_64/lib/libopenvino.so.2025.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "onednn",
+      "binary_name": "libopenvino.so.2025.2.0",
+      "binary_hash": "8ee7033b8b02052b0dadb69f001b1eb823036cbe6357ef9be09065596f44d7ad",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/openvino/2025.2.0/openvino_2025.2.0_x86_64-clang-release-shared/full_deploy/host/openvino/2025.2.0/Release/x86_64/lib/libopenvino.so.2025.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xbyak",
+      "binary_name": "libopenvino.so.2025.2.0",
+      "binary_hash": "8ee7033b8b02052b0dadb69f001b1eb823036cbe6357ef9be09065596f44d7ad",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/openvino/2025.2.0/openvino_2025.2.0_x86_64-clang-release-shared/full_deploy/host/openvino/2025.2.0/Release/x86_64/lib/libopenvino.so.2025.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "onednn",
+      "binary_name": "libopenvino.so.2025.2.0",
+      "binary_hash": "5e098de70af2679eb14e94004d0124d8c0f6d8b8f0cd39ac71ccf47ee4deefec",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/openvino/2025.2.0/openvino_2025.2.0_arm_64-gcc-release-shared/full_deploy/host/openvino/2025.2.0/Release/armv8/lib/libopenvino.so.2025.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xbyak",
+      "binary_name": "libopenvino.so.2025.2.0",
+      "binary_hash": "5e098de70af2679eb14e94004d0124d8c0f6d8b8f0cd39ac71ccf47ee4deefec",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/openvino/2025.2.0/openvino_2025.2.0_arm_64-gcc-release-shared/full_deploy/host/openvino/2025.2.0/Release/armv8/lib/libopenvino.so.2025.2.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "protobuf",
+      "binary_name": "protoc-27.0.0",
+      "binary_hash": "5a862e42b904be5023b4b50d833d35c566179df3d9ac5c032e7e50d4fcc8d8a8",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/opentelemetry-cpp/1.21.0/opentelemetry-cpp_1.21.0_x86_64-gcc-release-shared/full_deploy/host/protobuf/5.27.0/Release/x86_64/bin/protoc-27.0.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libgm2calc.so",
+      "binary_hash": "f2760d2e913596efa01eadaf5b59c3290bb38a00ca7236599f3c41c338aaabb8",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/gm2calc/2.2.0/gm2calc_2.2.0_x86_64-gcc-release-shared/full_deploy/host/gm2calc/2.2.0/Release/x86_64/lib/libgm2calc.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libgm2calc.so",
+      "binary_hash": "82bc6c4585567c6d8c4962116272ea30404f6cca05744e428ec08bd2c5246840",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/gm2calc/2.2.0/gm2calc_2.2.0_arm_64-gcc-release-shared/full_deploy/host/gm2calc/2.2.0/Release/armv8/lib/libgm2calc.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libgm2calc.so",
+      "binary_hash": "56033ecb479963fa7986d853d20c117fff79807033563f46c80366c5c6d7c6b8",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/gm2calc/2.2.0/gm2calc_2.2.0_x86_64-clang-release-shared/full_deploy/host/gm2calc/2.2.0/Release/x86_64/lib/libgm2calc.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "libPROPOSAL.so",
+      "binary_hash": "8b23ed8f7062fb46175a502fdc76d2566c80292d9f6e192266739f92f153eea1",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/proposal/7.6.2/proposal_7.6.2_arm_64-gcc-release-shared/full_deploy/host/proposal/7.6.2/Release/armv8/lib/libPROPOSAL.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "libPROPOSAL.so",
+      "binary_hash": "ee25eceefb3d516e9dbb21913bf84e4cdb1026a9ae0e8c59d08112527c5e8791",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/proposal/7.6.2/proposal_7.6.2_x86_64-gcc-release-shared/full_deploy/host/proposal/7.6.2/Release/x86_64/lib/libPROPOSAL.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "libPROPOSAL.so",
+      "binary_hash": "85ec60fd7bec0a83549f17a0442bd75a12a622529f0cfa6ca2850dead4676937",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/proposal/7.6.2/proposal_7.6.2_x86_64-clang-release-shared/full_deploy/host/proposal/7.6.2/Release/x86_64/lib/libPROPOSAL.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "lib_lightgbm.so",
+      "binary_hash": "5b244ac99869661da5bf08ded10329920bdb642d647aa3dd70b9c8a437e72696",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/lightgbm/4.2.0/lightgbm_4.2.0_x86_64-gcc-release-shared/full_deploy/host/lightgbm/4.2.0/Release/x86_64/lib/lib_lightgbm.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "lib_lightgbm.so",
+      "binary_hash": "3294046ecb4eee3e8285b47219576db814abbf707899905ee0486e7e29dd8e65",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/lightgbm/4.2.0/lightgbm_4.2.0_arm_64-gcc-release-shared/full_deploy/host/lightgbm/4.2.0/Release/armv8/lib/lib_lightgbm.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "lib_lightgbm.so",
+      "binary_hash": "c2bd0d0cc5946d66a97286a4eba015a221fb99f3671e2f79c07ead1bbcad0a01",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/lightgbm/4.2.0/lightgbm_4.2.0_x86_64-clang-release-shared/full_deploy/host/lightgbm/4.2.0/Release/x86_64/lib/lib_lightgbm.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "tweetnacl",
+      "binary_name": "libtweetnacl.so",
+      "binary_hash": "8043e38d7b4e70caf86d204ae1aef27017018f94101c7e68ad87f8a18d64a0b0",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tweetnacl/20140427/tweetnacl_20140427_x86_64-clang-release-shared/full_deploy/host/tweetnacl/20140427/Release/x86_64/lib/libtweetnacl.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "tweetnacl",
+      "binary_name": "libtweetnacl.so",
+      "binary_hash": "fd7d7e32a1c64a25a766b6a10a8bb6e74120c1f23ef120c1f0f61b098a286bb7",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tweetnacl/20140427/tweetnacl_20140427_arm_64-gcc-release-shared/full_deploy/host/tweetnacl/20140427/Release/armv8/lib/libtweetnacl.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "tweetnacl",
+      "binary_name": "libtweetnacl.so",
+      "binary_hash": "4cc0e473cc29f292311714ac7081651bc545ac4f691b213aae4eb31ff6a4a8cb",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tweetnacl/20140427/tweetnacl_20140427_x86_64-gcc-release-shared/full_deploy/host/tweetnacl/20140427/Release/x86_64/lib/libtweetnacl.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libjinja2cpp.so.1.3.2",
+      "binary_hash": "4ca3e39a774af44c92c9670faaca69fafe8751fa9192267e2c46f7bb11d0791b",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/jinja2cpp/1.3.2/jinja2cpp_1.3.2_x86_64-clang-release-shared/full_deploy/host/jinja2cpp/1.3.2/Release/x86_64/lib/libjinja2cpp.so.1.3.2",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libjinja2cpp.so.1.3.2",
+      "binary_hash": "3cc9d90c0558a9a4a8b7b4025b1dea7120c4bf3b89d85c970cfadfacae8d013a",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/jinja2cpp/1.3.2/jinja2cpp_1.3.2_arm_64-gcc-release-shared/full_deploy/host/jinja2cpp/1.3.2/Release/armv8/lib/libjinja2cpp.so.1.3.2",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libjinja2cpp.so.1.3.2",
+      "binary_hash": "8ccbcfc25094d55ddd4052e96cec0d4a9893b70de6b593adf7048a1399972e4a",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/jinja2cpp/1.3.2/jinja2cpp_1.3.2_x86_64-gcc-release-shared/full_deploy/host/jinja2cpp/1.3.2/Release/x86_64/lib/libjinja2cpp.so.1.3.2",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xxhash",
+      "binary_name": "librdkafka.so.1",
+      "binary_hash": "94fc6fd6745d81b3246f200290faa379c49f0a5118902cbe5e7ed07e5dc9c121",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cppkafka/0.4.1/cppkafka_0.4.1_x86_64-gcc-release-shared/full_deploy/host/librdkafka/2.3.0/Release/x86_64/lib/librdkafka.so.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "tinycthread",
+      "binary_name": "librdkafka.so.1",
+      "binary_hash": "94fc6fd6745d81b3246f200290faa379c49f0a5118902cbe5e7ed07e5dc9c121",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cppkafka/0.4.1/cppkafka_0.4.1_x86_64-gcc-release-shared/full_deploy/host/librdkafka/2.3.0/Release/x86_64/lib/librdkafka.so.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xxhash",
+      "binary_name": "librdkafka.so.1",
+      "binary_hash": "d29313fffa56c3c4c7f525c26a0eeeb11466d395a22031318a6eb51ff6869929",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cppkafka/0.4.1/cppkafka_0.4.1_x86_64-clang-release-shared/full_deploy/host/librdkafka/2.3.0/Release/x86_64/lib/librdkafka.so.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "tinycthread",
+      "binary_name": "librdkafka.so.1",
+      "binary_hash": "d29313fffa56c3c4c7f525c26a0eeeb11466d395a22031318a6eb51ff6869929",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cppkafka/0.4.1/cppkafka_0.4.1_x86_64-clang-release-shared/full_deploy/host/librdkafka/2.3.0/Release/x86_64/lib/librdkafka.so.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xxhash",
+      "binary_name": "librdkafka.so.1",
+      "binary_hash": "da700bd97e887b7c5d4a36d60a776e7e882b1bd22a06900b61bae41594829a76",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cppkafka/0.4.1/cppkafka_0.4.1_arm_64-gcc-release-shared/full_deploy/host/librdkafka/2.3.0/Release/armv8/lib/librdkafka.so.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "tinycthread",
+      "binary_name": "librdkafka.so.1",
+      "binary_hash": "da700bd97e887b7c5d4a36d60a776e7e882b1bd22a06900b61bae41594829a76",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cppkafka/0.4.1/cppkafka_0.4.1_arm_64-gcc-release-shared/full_deploy/host/librdkafka/2.3.0/Release/armv8/lib/librdkafka.so.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "sioclient",
+      "binary_name": "libsioclient.so.3.1.0",
+      "binary_hash": "ac4bb6eacfd74f430ca3c569cee06edb4ab998735ec808555f0114ae7ecb0a26",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/sioclient/cci.20240405/sioclient_cci.20240405_x86_64-clang-release-shared/full_deploy/host/sioclient/cci.20240405/Release/x86_64/lib/libsioclient.so.3.1.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "mongoose",
+      "binary_name": "libest-3.2.0p.so",
+      "binary_hash": "6b5504d6a709a565c0db3f31ef88252fedd0613a5d248704267369d04dd01b8d",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libest/3.2.0/libest_3.2.0_arm_64-gcc-release-shared/full_deploy/host/libest/3.2.0/Release/armv8/lib/libest-3.2.0p.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "jsmn",
+      "binary_name": "libest-3.2.0p.so",
+      "binary_hash": "6b5504d6a709a565c0db3f31ef88252fedd0613a5d248704267369d04dd01b8d",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libest/3.2.0/libest_3.2.0_arm_64-gcc-release-shared/full_deploy/host/libest/3.2.0/Release/armv8/lib/libest-3.2.0p.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "mongoose",
+      "binary_name": "libest-3.2.0p.so",
+      "binary_hash": "13b11fe7660a84f6994bfe66fcfdb768edde8008b355bd026f60d22d91e5c3c9",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libest/3.2.0/libest_3.2.0_x86_64-gcc-release-shared/full_deploy/host/libest/3.2.0/Release/x86_64/lib/libest-3.2.0p.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "jsmn",
+      "binary_name": "libest-3.2.0p.so",
+      "binary_hash": "13b11fe7660a84f6994bfe66fcfdb768edde8008b355bd026f60d22d91e5c3c9",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libest/3.2.0/libest_3.2.0_x86_64-gcc-release-shared/full_deploy/host/libest/3.2.0/Release/x86_64/lib/libest-3.2.0p.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "mongoose",
+      "binary_name": "libest-3.2.0p.so",
+      "binary_hash": "4cd4151014c888d2cac8dfc8433609aa1d185b74db29ae91623abedc52db6e2f",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libest/3.2.0/libest_3.2.0_x86_64-clang-release-shared/full_deploy/host/libest/3.2.0/Release/x86_64/lib/libest-3.2.0p.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "jsmn",
+      "binary_name": "libest-3.2.0p.so",
+      "binary_hash": "4cd4151014c888d2cac8dfc8433609aa1d185b74db29ae91623abedc52db6e2f",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libest/3.2.0/libest_3.2.0_x86_64-clang-release-shared/full_deploy/host/libest/3.2.0/Release/x86_64/lib/libest-3.2.0p.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xmp-toolkit-sdk",
+      "binary_name": "libexiv2.so.0.28.3",
+      "binary_hash": "906f91220def19d10f37a96f59b8e893061aa1d64dfd4d644d6313dc83eff1f5",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/exiv2/0.28.3/exiv2_0.28.3_x86_64-gcc-release-shared/full_deploy/host/exiv2/0.28.3/Release/x86_64/lib/libexiv2.so.0.28.3",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xmp-toolkit-sdk",
+      "binary_name": "libexiv2.so.0.28.3",
+      "binary_hash": "1f4c9a5d394f4514120a07e26e4f3bccdfee3c25abef73d54f668277470715fb",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/exiv2/0.28.3/exiv2_0.28.3_x86_64-clang-release-shared/full_deploy/host/exiv2/0.28.3/Release/x86_64/lib/libexiv2.so.0.28.3",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xmp-toolkit-sdk",
+      "binary_name": "libexiv2.so.0.28.3",
+      "binary_hash": "7da121455aac9ee778f2582f5ef61d0567a50f9a8fc25a2eed4f3b1742eb125f",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/exiv2/0.28.3/exiv2_0.28.3_arm_64-gcc-release-shared/full_deploy/host/exiv2/0.28.3/Release/armv8/lib/libexiv2.so.0.28.3",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "spdlog",
+      "binary_name": "libze_loader.so.1.17.0",
+      "binary_hash": "e6c1200ef0824308512b8c0cb1a9c041b77a704d8651b29c26ff2304a72fea38",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/level-zero/1.17.39/level-zero_1.17.39_arm_64-gcc-release-shared/full_deploy/host/level-zero/1.17.39/Release/armv8/lib/libze_loader.so.1.17.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "spdlog",
+      "binary_name": "libze_loader.so.1.17.0",
+      "binary_hash": "656d142cc575d0a8f8d00113e1cb9a8f1242fef95198abea4c65e5936970e28b",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/level-zero/1.17.39/level-zero_1.17.39_x86_64-clang-release-shared/full_deploy/host/level-zero/1.17.39/Release/x86_64/lib/libze_loader.so.1.17.0",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libtorrent-rasterbar.so.2.0.10",
+      "binary_hash": "97fc78434a7f2033e6418d87d93b3ee352a2a25a32183d6b58ac14e3c839c979",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libtorrent/2.0.10/libtorrent_2.0.10_x86_64-gcc-release-shared/full_deploy/host/libtorrent/2.0.10/Release/x86_64/lib/libtorrent-rasterbar.so.2.0.10",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libtorrent-rasterbar.so.2.0.10",
+      "binary_hash": "c4383ab7a918e1ec75c6365b56482be80122b24574043c3e3a074c64ab9fbaba",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libtorrent/2.0.10/libtorrent_2.0.10_x86_64-clang-release-shared/full_deploy/host/libtorrent/2.0.10/Release/x86_64/lib/libtorrent-rasterbar.so.2.0.10",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libtorrent-rasterbar.so.2.0.10",
+      "binary_hash": "98d2dd0e470c75e8960d3a7b6f76e3cb56eaa5b93b8b6e0d00c7062439dcda86",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libtorrent/2.0.10/libtorrent_2.0.10_arm_64-gcc-release-shared/full_deploy/host/libtorrent/2.0.10/Release/armv8/lib/libtorrent-rasterbar.so.2.0.10",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "tree-gen",
+      "binary_hash": "84fcdd40b5a186be237a1b12a1d0a3be47cfa36b18f4e3ee2bec3cd897e28115",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tree-gen/1.0.9/tree-gen_1.0.9_arm_64-gcc-release-shared/full_deploy/host/tree-gen/1.0.9/Release/armv8/bin/tree-gen",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "json-schema-validator",
+      "binary_name": "tree-gen",
+      "binary_hash": "84fcdd40b5a186be237a1b12a1d0a3be47cfa36b18f4e3ee2bec3cd897e28115",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tree-gen/1.0.9/tree-gen_1.0.9_arm_64-gcc-release-shared/full_deploy/host/tree-gen/1.0.9/Release/armv8/bin/tree-gen",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "tree-gen",
+      "binary_hash": "f1f58513f474875f2ed2ccec8d773fb1d3c6e9a8d56f13f0b1199be1cdec009a",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tree-gen/1.0.9/tree-gen_1.0.9_x86_64-clang-release-shared/full_deploy/host/tree-gen/1.0.9/Release/x86_64/bin/tree-gen",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "json-schema-validator",
+      "binary_name": "tree-gen",
+      "binary_hash": "f1f58513f474875f2ed2ccec8d773fb1d3c6e9a8d56f13f0b1199be1cdec009a",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tree-gen/1.0.9/tree-gen_1.0.9_x86_64-clang-release-shared/full_deploy/host/tree-gen/1.0.9/Release/x86_64/bin/tree-gen",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "tree-gen",
+      "binary_hash": "7037c71b103eb178c8af2187b2391b5d630aaa4b654f105167441408c4291f1a",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tree-gen/1.0.9/tree-gen_1.0.9_x86_64-gcc-release-shared/full_deploy/host/tree-gen/1.0.9/Release/x86_64/bin/tree-gen",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "json-schema-validator",
+      "binary_name": "tree-gen",
+      "binary_hash": "7037c71b103eb178c8af2187b2391b5d630aaa4b654f105167441408c4291f1a",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tree-gen/1.0.9/tree-gen_1.0.9_x86_64-gcc-release-shared/full_deploy/host/tree-gen/1.0.9/Release/x86_64/bin/tree-gen",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "nasm",
+      "binary_name": "nasm",
+      "binary_hash": "230908bb9e011701769f15ba9525900105ab3ec0f53d19f5e5d48da94dc9adbc",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/nasm/2.16.01/nasm_2.16.01_arm_64-gcc-release-shared/full_deploy/host/nasm/2.16.01/Release/armv8/bin/nasm",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "zstd",
+      "binary_name": "libbasisu.so",
+      "binary_hash": "02f058c5b272a628718ad90af85feeef81e6298c4400753134b657782d62ccb6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libbasisu/1.15.0/libbasisu_1.15.0_x86_64-gcc-release-shared/full_deploy/host/libbasisu/1.15.0/Release/x86_64/lib/libbasisu.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "lodepng",
+      "binary_name": "libbasisu.so",
+      "binary_hash": "02f058c5b272a628718ad90af85feeef81e6298c4400753134b657782d62ccb6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libbasisu/1.15.0/libbasisu_1.15.0_x86_64-gcc-release-shared/full_deploy/host/libbasisu/1.15.0/Release/x86_64/lib/libbasisu.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "zstd",
+      "binary_name": "libbasisu.so",
+      "binary_hash": "39753fc25606678581842bc3e03775470f75c1ef70d52d77092484be899da811",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libbasisu/1.15.0/libbasisu_1.15.0_arm_64-gcc-release-shared/full_deploy/host/libbasisu/1.15.0/Release/armv8/lib/libbasisu.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "lodepng",
+      "binary_name": "libbasisu.so",
+      "binary_hash": "39753fc25606678581842bc3e03775470f75c1ef70d52d77092484be899da811",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libbasisu/1.15.0/libbasisu_1.15.0_arm_64-gcc-release-shared/full_deploy/host/libbasisu/1.15.0/Release/armv8/lib/libbasisu.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "zstd",
+      "binary_name": "libbasisu.so",
+      "binary_hash": "ab38a2c15ae1a835533ec82abda89b86372e6dbe7d2dfc222ab46debe38e2a78",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libbasisu/1.15.0/libbasisu_1.15.0_x86_64-clang-release-shared/full_deploy/host/libbasisu/1.15.0/Release/x86_64/lib/libbasisu.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "lodepng",
+      "binary_name": "libbasisu.so",
+      "binary_hash": "ab38a2c15ae1a835533ec82abda89b86372e6dbe7d2dfc222ab46debe38e2a78",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libbasisu/1.15.0/libbasisu_1.15.0_x86_64-clang-release-shared/full_deploy/host/libbasisu/1.15.0/Release/x86_64/lib/libbasisu.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "fmt",
+      "binary_name": "lngs-0.7",
+      "binary_hash": "413779d0c04b6be338dbbedd76bebc9af42b13a0a6d6d8006038488d33654434",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/mbits-lngs/0.7.6/mbits-lngs_0.7.6_x86_64-gcc-release-shared/full_deploy/host/mbits-lngs/0.7.6/Release/x86_64/bin/lngs-0.7",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "fmt",
+      "binary_name": "lngs-0.7",
+      "binary_hash": "491a11eb8f084fc7cbe9ee70ae564130a1f77ceec42d26a0eceabc63cc9e0ff6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/mbits-lngs/0.7.6/mbits-lngs_0.7.6_arm_64-gcc-release-shared/full_deploy/host/mbits-lngs/0.7.6/Release/armv8/bin/lngs-0.7",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "flex",
+      "binary_name": "libconfig.so.1.7.3",
+      "binary_hash": "74727ef23f79357554fe3f1c848e400029ef4f82a270b11ac353461a1613fe89",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libconfig/1.7.3/libconfig_1.7.3_x86_64-gcc-release-shared/full_deploy/host/libconfig/1.7.3/Release/x86_64/lib/libconfig.so.1.7.3",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "flex",
+      "binary_name": "libconfig.so.1.7.3",
+      "binary_hash": "7789fb95ae528a54b96458c04bbcfb783b1a04461158eb9aa743d023b5c98020",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libconfig/1.7.3/libconfig_1.7.3_arm_64-gcc-release-shared/full_deploy/host/libconfig/1.7.3/Release/armv8/lib/libconfig.so.1.7.3",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "flex",
+      "binary_name": "libconfig.so.1.7.3",
+      "binary_hash": "8d2efc37f3d030a436b01e529d8dbb8d55d614f3b2f16155284763c23cea0163",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libconfig/1.7.3/libconfig_1.7.3_x86_64-clang-release-shared/full_deploy/host/libconfig/1.7.3/Release/x86_64/lib/libconfig.so.1.7.3",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "stb",
+      "binary_name": "libdarknet.so",
+      "binary_hash": "cd3832535e525793cec52ab112cc07710720d561b5fe0cd2f37c01313cdb65e0",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/darknet/cci.20180914/darknet_cci.20180914_x86_64-gcc-release-shared/full_deploy/host/darknet/cci.20180914/Release/x86_64/lib/libdarknet.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "stb",
+      "binary_name": "libdarknet.so",
+      "binary_hash": "912cac875b0301614f60c7e8a26d4a09f27c7a88947a2d5fd8de08caced53a6a",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/darknet/cci.20180914/darknet_cci.20180914_arm_64-gcc-release-shared/full_deploy/host/darknet/cci.20180914/Release/armv8/lib/libdarknet.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "stb",
+      "binary_name": "libdarknet.so",
+      "binary_hash": "89c54442325d0df5a6895fe59a8ed0521823dd520a4a1538a9b41165c5d9edde",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/darknet/cci.20180914/darknet_cci.20180914_x86_64-clang-release-shared/full_deploy/host/darknet/cci.20180914/Release/x86_64/lib/libdarknet.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xxhash",
+      "binary_name": "librdkafka.so.1",
+      "binary_hash": "56362e150182a66244f9438dafbc1e0379873ddb2607b009bd517704a8e8897b",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/librdkafka/2.8.0/librdkafka_2.8.0_x86_64-gcc-release-shared/full_deploy/host/librdkafka/2.8.0/Release/x86_64/lib/librdkafka.so.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "tinycthread",
+      "binary_name": "librdkafka.so.1",
+      "binary_hash": "56362e150182a66244f9438dafbc1e0379873ddb2607b009bd517704a8e8897b",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/librdkafka/2.8.0/librdkafka_2.8.0_x86_64-gcc-release-shared/full_deploy/host/librdkafka/2.8.0/Release/x86_64/lib/librdkafka.so.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xxhash",
+      "binary_name": "librdkafka.so.1",
+      "binary_hash": "8e13a9154ed04f1fe164b2ba82b1507ae22920f388b0b536eb8ba1ea37b1c9f2",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/librdkafka/2.8.0/librdkafka_2.8.0_arm_64-gcc-release-shared/full_deploy/host/librdkafka/2.8.0/Release/armv8/lib/librdkafka.so.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "tinycthread",
+      "binary_name": "librdkafka.so.1",
+      "binary_hash": "8e13a9154ed04f1fe164b2ba82b1507ae22920f388b0b536eb8ba1ea37b1c9f2",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/librdkafka/2.8.0/librdkafka_2.8.0_arm_64-gcc-release-shared/full_deploy/host/librdkafka/2.8.0/Release/armv8/lib/librdkafka.so.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "xxhash",
+      "binary_name": "librdkafka.so.1",
+      "binary_hash": "ff5bbd5f20e1923aee5a2fd1442dcf22057090821cb0d537c6c5aef00eda02bb",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/librdkafka/2.8.0/librdkafka_2.8.0_x86_64-clang-release-shared/full_deploy/host/librdkafka/2.8.0/Release/x86_64/lib/librdkafka.so.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "tinycthread",
+      "binary_name": "librdkafka.so.1",
+      "binary_hash": "ff5bbd5f20e1923aee5a2fd1442dcf22057090821cb0d537c6c5aef00eda02bb",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/librdkafka/2.8.0/librdkafka_2.8.0_x86_64-clang-release-shared/full_deploy/host/librdkafka/2.8.0/Release/x86_64/lib/librdkafka.so.1",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "butteraugli",
+      "binary_name": "libjxl.so.0.8.2",
+      "binary_hash": "5a002e86b82e4d211608870e90318ec938eceb7f88fc69dec3a8da2832e443bd",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/sail/0.9.8/sail_0.9.8_x86_64-clang-release-shared/full_deploy/host/libjxl/0.8.2/Release/x86_64/lib/libjxl.so.0.8.2",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "butteraugli",
+      "binary_name": "libjxl.so.0.8.2",
+      "binary_hash": "9d58c2b535f87b592e157086df9309dd7ff123b89541b4693ecd12c25174f3ec",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/sail/0.9.8/sail_0.9.8_x86_64-gcc-release-shared/full_deploy/host/libjxl/0.8.2/Release/x86_64/lib/libjxl.so.0.8.2",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "premake",
+      "binary_name": "premake5",
+      "binary_hash": "4f9135372c84a07e860d8b0781af9905f112a1addfbddf9090eba5607e758c48",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/premake/5.0.0-beta7/premake_5.0.0-beta7_x86_64-clang-release-shared/full_deploy/host/premake/5.0.0-beta7/Release/x86_64/bin/premake5",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "lua",
+      "binary_name": "premake5",
+      "binary_hash": "4f9135372c84a07e860d8b0781af9905f112a1addfbddf9090eba5607e758c48",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/premake/5.0.0-beta7/premake_5.0.0-beta7_x86_64-clang-release-shared/full_deploy/host/premake/5.0.0-beta7/Release/x86_64/bin/premake5",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "zlib",
+      "binary_name": "premake5",
+      "binary_hash": "4f9135372c84a07e860d8b0781af9905f112a1addfbddf9090eba5607e758c48",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/premake/5.0.0-beta7/premake_5.0.0-beta7_x86_64-clang-release-shared/full_deploy/host/premake/5.0.0-beta7/Release/x86_64/bin/premake5",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "libzip",
+      "binary_name": "premake5",
+      "binary_hash": "4f9135372c84a07e860d8b0781af9905f112a1addfbddf9090eba5607e758c48",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/premake/5.0.0-beta7/premake_5.0.0-beta7_x86_64-clang-release-shared/full_deploy/host/premake/5.0.0-beta7/Release/x86_64/bin/premake5",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    },
+    {
+      "library": "fusepp",
+      "binary_name": "libfusepp.so",
+      "binary_hash": "383e1b955d3f46f83389f4ee4776c3ef7632ef2a1d47f056731517af204296aa",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/fusepp/cci.20210820/fusepp_cci.20210820_x86_64-gcc-release-shared/full_deploy/host/fusepp/cci.20210820/Release/x86_64/lib/libfusepp.so",
+      "reason": "retrieval_failure",
+      "note": "特征匹配未能召回该库"
+    }
+  ],
+  "fn_verification_errors": [
+    {
+      "library": "suitesparse",
+      "binary_name": "libecos.so",
+      "binary_hash": "1ec8b38be332e7cc0d08c9787e6aa7f8feed0fb659e494afb9d2d03a52b9d123",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/ecos/2.0.10/ecos_2.0.10_arm_64-gcc-release-shared/full_deploy/host/ecos/2.0.10/Release/armv8/lib/libecos.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "elfutils",
+      "binary_name": "libelf-0.190.so",
+      "binary_hash": "4b22d1d21260111dbda25c91f3c92867638f50323eeea7253a70ea7575f74b12",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/atk/2.38.0/atk_2.38.0_arm_64-gcc-release-shared/full_deploy/host/elfutils/0.190/Release/armv8/lib/libelf-0.190.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "elfutils",
+      "binary_name": "libelf-0.190.so",
+      "binary_hash": "7173d0bd9377d66b5497245c48d976c1df060ab5d8af78df8e98048f5516815b",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/atk/2.38.0/atk_2.38.0_x86_64-gcc-release-shared/full_deploy/host/elfutils/0.190/Release/x86_64/lib/libelf-0.190.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "boost-math",
+      "binary_name": "libCubicInterpolation.so",
+      "binary_hash": "dd8248eef405a3f19bf2a907446255bfe25a9ea2404f5916357f935d30c2b1bc",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cubicinterpolation/0.1.5/cubicinterpolation_0.1.5_x86_64-gcc-release-shared/full_deploy/host/cubicinterpolation/0.1.5/Release/x86_64/lib/libCubicInterpolation.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "boost-math",
+      "binary_name": "libCubicInterpolation.so",
+      "binary_hash": "a53daa816c7af518034bf1255016f190d350f4566c9b3e41aa453c523145be6e",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cubicinterpolation/0.1.5/cubicinterpolation_0.1.5_x86_64-clang-release-shared/full_deploy/host/cubicinterpolation/0.1.5/Release/x86_64/lib/libCubicInterpolation.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "boost-math",
+      "binary_name": "libCubicInterpolation.so",
+      "binary_hash": "983ab831254b3aa92123475ed513a4c2d19eb9b30a331ecf8f0ec8b19677b14e",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cubicinterpolation/0.1.5/cubicinterpolation_0.1.5_arm_64-gcc-release-shared/full_deploy/host/cubicinterpolation/0.1.5/Release/armv8/lib/libCubicInterpolation.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "cocoyaxi",
+      "binary_name": "libco.so",
+      "binary_hash": "d2b97920c6b616fa696452e2bb61698624f5b7eb5708255116387835ea3c8701",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cocoyaxi/2.0.3/cocoyaxi_2.0.3_arm_64-gcc-release-shared/full_deploy/host/cocoyaxi/2.0.3/Release/armv8/lib/libco.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "cocoyaxi",
+      "binary_name": "libco.so",
+      "binary_hash": "0a80cdd08afcdbfc2de2bf2f8fc3f8ae5e15618cf0fc4f28735d5afe434e72f9",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cocoyaxi/2.0.3/cocoyaxi_2.0.3_x86_64-clang-release-shared/full_deploy/host/cocoyaxi/2.0.3/Release/x86_64/lib/libco.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "cocoyaxi",
+      "binary_name": "libco.so",
+      "binary_hash": "5dc80b67fe29947e3b8975b6e1dc3aab545ac482c364a94387fa6deb589283a2",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cocoyaxi/2.0.3/cocoyaxi_2.0.3_x86_64-gcc-release-shared/full_deploy/host/cocoyaxi/2.0.3/Release/x86_64/lib/libco.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "xmp",
+      "binary_name": "libuhdr.so.1.4.0",
+      "binary_hash": "23334d56af7a2ec9890bffebbe49fd4fd593f347240691bf48e23037437e8747",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libultrahdr/1.4.0/libultrahdr_1.4.0_arm_64-gcc-release-shared/full_deploy/host/libultrahdr/1.4.0/Release/armv8/lib/libuhdr.so.1.4.0",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "boost",
+      "binary_name": "libwt.so.4.11.2",
+      "binary_hash": "0e8d801d65fe48f81d1b0a614d612ca2303966b1985f8733de4571bac0ea96f5",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/wt/4.11.2/wt_4.11.2_x86_64-clang-release-shared/full_deploy/host/wt/4.11.2/Release/x86_64/lib/libwt.so.4.11.2",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "asio",
+      "binary_name": "liblsl.so.1.16.2",
+      "binary_hash": "0770e506cd945ba7ff2afc4bdfedfadd4bb9eaf01c2e7e32be30e7b40c5f7ca0",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/liblsl/1.16.2/liblsl_1.16.2_x86_64-clang-release-shared/full_deploy/host/liblsl/1.16.2/Release/x86_64/lib/liblsl.so.1.16.2",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "libnlohmann_json_schema_validator.so.2.3.0",
+      "binary_hash": "018af21814112806c5c833929e08c3a515cdc5eb74c14d7764f39316be549f5b",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/json-schema-validator/2.3.0/json-schema-validator_2.3.0_arm_64-gcc-release-shared/full_deploy/host/json-schema-validator/2.3.0/Release/armv8/lib/libnlohmann_json_schema_validator.so.2.3.0",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "libnlohmann_json_schema_validator.so.2.3.0",
+      "binary_hash": "820465cc66309fd7dbf27dfba7611956c904c3397220cec572a2c3b5dd7b3c57",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/json-schema-validator/2.3.0/json-schema-validator_2.3.0_x86_64-gcc-release-shared/full_deploy/host/json-schema-validator/2.3.0/Release/x86_64/lib/libnlohmann_json_schema_validator.so.2.3.0",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "websocketpp",
+      "binary_name": "libfoxglove_websocket.so",
+      "binary_hash": "ea86c3058ef61d668cced4424a155c420c48a9a243b2c594d8bc4a18aa3e012d",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/foxglove-websocket/1.4.0/foxglove-websocket_1.4.0_arm_64-gcc-release-shared/full_deploy/host/foxglove-websocket/1.4.0/Release/armv8/lib/libfoxglove_websocket.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "websocketpp",
+      "binary_name": "libfoxglove_websocket.so",
+      "binary_hash": "0a2c252a8038466ce82a9c7eebdc93d5b2b7db6c012af641b7adb0b1cbb4dab9",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/foxglove-websocket/1.4.0/foxglove-websocket_1.4.0_x86_64-gcc-release-shared/full_deploy/host/foxglove-websocket/1.4.0/Release/x86_64/lib/libfoxglove_websocket.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "lzo",
+      "binary_name": "liblzo2.so.2.0.0",
+      "binary_hash": "a243f90e19d3f4ab4db8975772007bab881a9c7f9903cef964ee8675adaad6c1",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/lzo/2.10/lzo_2.10_x86_64-gcc-release-shared/full_deploy/host/lzo/2.10/Release/x86_64/lib/liblzo2.so.2.0.0",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "lzo",
+      "binary_name": "liblzo2.so.2.0.0",
+      "binary_hash": "dbf8593506fc2997c0e34b306626edf0b27151f0bd1f38674b1391e6c5b7741f",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/lzo/2.10/lzo_2.10_arm_64-gcc-release-shared/full_deploy/host/lzo/2.10/Release/armv8/lib/liblzo2.so.2.0.0",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "lzo",
+      "binary_name": "liblzo2.so.2.0.0",
+      "binary_hash": "95db12b40dbe0725830bf275ad9009928fbbb120ed088d9e26cfa8f0030470e6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/lzo/2.10/lzo_2.10_x86_64-clang-release-shared/full_deploy/host/lzo/2.10/Release/x86_64/lib/liblzo2.so.2.0.0",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "openexr",
+      "binary_name": "libImath-2_5.so.25.0.6",
+      "binary_hash": "3d72d7ab8ac93eaf8c65a22f24579af9f455f7b233ef68842ca8ff5365f0d552",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/freeimage/3.18.0/freeimage_3.18.0_x86_64-clang-release-shared/full_deploy/host/openexr/2.5.7/Release/x86_64/lib/libImath-2_5.so.25.0.6",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "openexr",
+      "binary_name": "libImath-2_5.so.25.0.6",
+      "binary_hash": "a0b62ba2cb50402b6eb64324c0bfda6f28b445a2a9317049b4e9c32fa3292ef3",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/freeimage/3.18.0/freeimage_3.18.0_x86_64-gcc-release-shared/full_deploy/host/openexr/2.5.7/Release/x86_64/lib/libImath-2_5.so.25.0.6",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "eigen",
+      "binary_name": "libeiquadprog.so",
+      "binary_hash": "996d5d79f8b0e018c47361706d63daf7cc79768833138af342fbd82500eb70f5",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/eiquadprog/1.2.9/eiquadprog_1.2.9_x86_64-gcc-release-shared/full_deploy/host/eiquadprog/1.2.9/Release/x86_64/lib/libeiquadprog.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "blosc",
+      "binary_name": "libblosc2.so.2.17.0",
+      "binary_hash": "f322d17a93ad946e19651efe00015a8e16704b845e5c02832d499ad8d0927847",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/c-blosc2/2.17.0/c-blosc2_2.17.0_arm_64-gcc-release-shared/full_deploy/host/c-blosc2/2.17.0/Release/armv8/lib/libblosc2.so.2.17.0",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "blosc",
+      "binary_name": "libblosc2.so.2.17.0",
+      "binary_hash": "35b429928a9f73abecaedb00ae5ae86667753d9876f0050276238e28a180a3fa",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/c-blosc2/2.17.0/c-blosc2_2.17.0_x86_64-clang-release-shared/full_deploy/host/c-blosc2/2.17.0/Release/x86_64/lib/libblosc2.so.2.17.0",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "blosc",
+      "binary_name": "libblosc2.so.2.17.0",
+      "binary_hash": "dd6d2ee7b92481b050b575112164721d02c19d9df1113078cb56803517b39b25",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/c-blosc2/2.17.0/c-blosc2_2.17.0_x86_64-gcc-release-shared/full_deploy/host/c-blosc2/2.17.0/Release/x86_64/lib/libblosc2.so.2.17.0",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "slre",
+      "binary_name": "libczmq.so.4.2.1",
+      "binary_hash": "2896a82c83c645536ec90dfecb2787acb01ae9a8a1f61f551d433707aa9c4370",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/czmq/4.2.1/czmq_4.2.1_arm_64-gcc-release-shared/full_deploy/host/czmq/4.2.1/Release/armv8/lib/libczmq.so.4.2.1",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "slre",
+      "binary_name": "libczmq.so.4.2.1",
+      "binary_hash": "5385388f3ed4625f6b20c33e172715c80251772f265e29df12deec217e3b01fd",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/czmq/4.2.1/czmq_4.2.1_x86_64-gcc-release-shared/full_deploy/host/czmq/4.2.1/Release/x86_64/lib/libczmq.so.4.2.1",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "kuba-zip",
+      "binary_name": "libzip.so",
+      "binary_hash": "4d766f41f5b18b096b6d6defa7d95bd08c0164508e7de28aba70784c6a2af557",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/assimp/5.4.3/assimp_5.4.3_x86_64-gcc-release-shared/full_deploy/host/kuba-zip/0.3.0/Release/x86_64/lib/libzip.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "libunleash.so.1.0.0",
+      "binary_hash": "e91469c3a6b6f031e82f6f08260cfcdcf2fd6145e58289dca35d96974ef91b31",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/unleash-client-cpp/1.3.0/unleash-client-cpp_1.3.0_x86_64-gcc-release-shared/full_deploy/host/unleash-client-cpp/1.3.0/Release/x86_64/lib/libunleash.so.1.0.0",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "nlohmann_json",
+      "binary_name": "libunleash.so.1.0.0",
+      "binary_hash": "c3a89c2f2ccae07132cb7ba06f03b60fe8a0cd1b40f6b51c8f79bcef1876280c",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/unleash-client-cpp/1.3.0/unleash-client-cpp_1.3.0_arm_64-gcc-release-shared/full_deploy/host/unleash-client-cpp/1.3.0/Release/armv8/lib/libunleash.so.1.0.0",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "libtar",
+      "binary_name": "libtar",
+      "binary_hash": "b8729c787ee3c7be662a060965fd041834c90eb85b60316c71406dc0c813ee3a",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libtar/1.2.20/libtar_1.2.20_x86_64-clang-release-shared/full_deploy/host/libtar/1.2.20/Release/x86_64/bin/libtar",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "paho-mqtt-cpp",
+      "binary_name": "libpaho-mqttpp3.so.1.5.3",
+      "binary_hash": "6320ad27e018b5c111681928982dbd4a3bd508cd5cd87f7ab92fdb0fee279938",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/paho-mqtt-cpp/1.5.3/paho-mqtt-cpp_1.5.3_x86_64-gcc-release-shared/full_deploy/host/paho-mqtt-cpp/1.5.3/Release/x86_64/lib/libpaho-mqttpp3.so.1.5.3",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "paho-mqtt-cpp",
+      "binary_name": "libpaho-mqttpp3.so.1.5.3",
+      "binary_hash": "36d565b61a25ef34446cba0326202fe14caf704bf25d258835cf5b91ce9fff7c",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/paho-mqtt-cpp/1.5.3/paho-mqtt-cpp_1.5.3_arm_64-gcc-release-shared/full_deploy/host/paho-mqtt-cpp/1.5.3/Release/armv8/lib/libpaho-mqttpp3.so.1.5.3",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "paho-mqtt-cpp",
+      "binary_name": "libpaho-mqttpp3.so.1.5.3",
+      "binary_hash": "745213d172b723a034de233197f47e13a70cba55597a545c8a766b917a4fb68b",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/paho-mqtt-cpp/1.5.3/paho-mqtt-cpp_1.5.3_x86_64-clang-release-shared/full_deploy/host/paho-mqtt-cpp/1.5.3/Release/x86_64/lib/libpaho-mqttpp3.so.1.5.3",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "google-cloud-cpp",
+      "binary_name": "libgoogle_cloud_cpp_common.so.2.28.0",
+      "binary_hash": "edebe7fa66260a108db12f63ebdee4a40eaa420865e5e47b8cf75ba0a1142ce0",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/google-cloud-cpp/2.28.0/google-cloud-cpp_2.28.0_x86_64-clang-release-shared/full_deploy/host/google-cloud-cpp/2.28.0/Release/x86_64/lib/libgoogle_cloud_cpp_common.so.2.28.0",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "google-cloud-cpp",
+      "binary_name": "libgoogle_cloud_cpp_common.so.2.28.0",
+      "binary_hash": "2d303a50d9f90c949ebc66f9137139549f22fc7fe5bae41941e5da162d0d567c",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/google-cloud-cpp/2.28.0/google-cloud-cpp_2.28.0_x86_64-gcc-release-shared/full_deploy/host/google-cloud-cpp/2.28.0/Release/x86_64/lib/libgoogle_cloud_cpp_common.so.2.28.0",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "fmt",
+      "binary_name": "lib_lightgbm.so",
+      "binary_hash": "c2bd0d0cc5946d66a97286a4eba015a221fb99f3671e2f79c07ead1bbcad0a01",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/lightgbm/4.2.0/lightgbm_4.2.0_x86_64-clang-release-shared/full_deploy/host/lightgbm/4.2.0/Release/x86_64/lib/lib_lightgbm.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "popt",
+      "binary_name": "libajantv2shared.so",
+      "binary_hash": "7046f38c650f47264e5488b4041e202e01b0cb9df57a62d299f1926c58db9bd6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/ntv2/16.1/ntv2_16.1_x86_64-clang-release-shared/full_deploy/host/ntv2/16.1/Release/x86_64/lib/libajantv2shared.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "spdlog",
+      "binary_name": "libze_loader.so.1.17.0",
+      "binary_hash": "75dab1442dd94b331bc6756e08c2f3336ada035f3b35947756ca4e885933e4d8",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/level-zero/1.17.39/level-zero_1.17.39_x86_64-gcc-release-shared/full_deploy/host/level-zero/1.17.39/Release/x86_64/lib/libze_loader.so.1.17.0",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "eigen",
+      "binary_name": "libfcl.so.0.7.0",
+      "binary_hash": "d6bafa58afc6ac7f622eb9142bdeedc465357c2f100daf22618432aaa9149fe7",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/fcl/0.7.0/fcl_0.7.0_x86_64-gcc-release-shared/full_deploy/host/fcl/0.7.0/Release/x86_64/lib/libfcl.so.0.7.0",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "eigen",
+      "binary_name": "libfcl.so.0.7.0",
+      "binary_hash": "7a3029e7fb09caa0a7a9d3fc5c65840ef72315fba23a6abd5afde8739ee0ae48",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/fcl/0.7.0/fcl_0.7.0_x86_64-clang-release-shared/full_deploy/host/fcl/0.7.0/Release/x86_64/lib/libfcl.so.0.7.0",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "nmea",
+      "binary_name": "libnmea.so",
+      "binary_hash": "6e24fd9ecb7c6d6886532dec52eede6519089d0a3fc2061aa0e1ec7caea183ed",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/nmea/0.5.3/nmea_0.5.3_x86_64-gcc-release-shared/full_deploy/host/nmea/0.5.3/Release/x86_64/lib/libnmea.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "7zip",
+      "binary_name": "7za",
+      "binary_hash": "322eafa788b25d8af54554e6ba310b8469b037e8186ebdf9feee49a80f621856",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/p7zip/16.02/p7zip_16.02_x86_64-gcc-release-shared/full_deploy/host/p7zip/16.02/Release/x86_64/bin/7za",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "7zip",
+      "binary_name": "7za",
+      "binary_hash": "7136066fa53666fc757f0de502e35dfb5c35f2fddb42fa4d13ff8cbbb67d006d",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/p7zip/16.02/p7zip_16.02_arm_64-gcc-release-shared/full_deploy/host/p7zip/16.02/Release/armv8/bin/7za",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "divsufsort",
+      "binary_name": "libbasisu.so",
+      "binary_hash": "02f058c5b272a628718ad90af85feeef81e6298c4400753134b657782d62ccb6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libbasisu/1.15.0/libbasisu_1.15.0_x86_64-gcc-release-shared/full_deploy/host/libbasisu/1.15.0/Release/x86_64/lib/libbasisu.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "divsufsort",
+      "binary_name": "libbasisu.so",
+      "binary_hash": "39753fc25606678581842bc3e03775470f75c1ef70d52d77092484be899da811",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libbasisu/1.15.0/libbasisu_1.15.0_arm_64-gcc-release-shared/full_deploy/host/libbasisu/1.15.0/Release/armv8/lib/libbasisu.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "divsufsort",
+      "binary_name": "libbasisu.so",
+      "binary_hash": "ab38a2c15ae1a835533ec82abda89b86372e6dbe7d2dfc222ab46debe38e2a78",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libbasisu/1.15.0/libbasisu_1.15.0_x86_64-clang-release-shared/full_deploy/host/libbasisu/1.15.0/Release/x86_64/lib/libbasisu.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "tinycthread",
+      "binary_name": "libtinycthreadpool.so",
+      "binary_hash": "746efaa6e156c3f3a18e98283ae16c5f35fd5790d38041201adab802f98f5d9b",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tinycthreadpool/1.0/tinycthreadpool_1.0_x86_64-gcc-release-shared/full_deploy/host/tinycthreadpool/1.0/Release/x86_64/lib/libtinycthreadpool.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "tinycthread",
+      "binary_name": "libtinycthreadpool.so",
+      "binary_hash": "f1ab96395767a8fe20750e6f71057ec6eb5757f0f4c5ca29c58cda6a60038150",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tinycthreadpool/1.0/tinycthreadpool_1.0_x86_64-clang-release-shared/full_deploy/host/tinycthreadpool/1.0/Release/x86_64/lib/libtinycthreadpool.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "tinycthread",
+      "binary_name": "libtinycthreadpool.so",
+      "binary_hash": "98c42a62ab789a748f706774422d57d4299cba9c374520f396fba47375c186d1",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tinycthreadpool/1.0/tinycthreadpool_1.0_arm_64-gcc-release-shared/full_deploy/host/tinycthreadpool/1.0/Release/armv8/lib/libtinycthreadpool.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    },
+    {
+      "library": "kuba-zip",
+      "binary_name": "libzip.so",
+      "binary_hash": "134ca66b3b1b616e90458667509888284d820fdba16d14c7925a99904be11152",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/duckx/1.2.2/duckx_1.2.2_arm_64-gcc-release-shared/full_deploy/host/kuba-zip/0.3.1/Release/armv8/lib/libzip.so",
+      "reason": "verification_exclusion",
+      "note": "在候选列表中但被 LLM 错误排除"
+    }
+  ],
+  "fp_cases": [
+    {
+      "library": "divsufsort",
+      "binary_name": "libzstd.so.1.5.5",
+      "binary_hash": "6b3ab194c837a7b174ee150d079d821bb8adadb6e658e6a503fe41c9ba7382c0",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libmysqlclient/8.1.0/libmysqlclient_8.1.0_x86_64-gcc-release-shared/full_deploy/host/zstd/1.5.5/Release/x86_64/lib/libzstd.so.1.5.5",
+      "ground_truth": [
+        "zstd"
+      ]
+    },
+    {
+      "library": "suitesparse",
+      "binary_name": "libecos.so",
+      "binary_hash": "965af4f45fb13ee04d61ecc716dbd4a36587c99624b559e11e242fafa1cfd587",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/ecos/2.0.10/ecos_2.0.10_x86_64-gcc-release-shared/full_deploy/host/ecos/2.0.10/Release/x86_64/lib/libecos.so",
+      "ground_truth": [
+        "ecos"
+      ]
+    },
+    {
+      "library": "suitesparse",
+      "binary_name": "libecos.so",
+      "binary_hash": "a4755cfeb61e8cebeee580671001216e040ee3a8252a31eb19a80439b387d612",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/ecos/2.0.10/ecos_2.0.10_x86_64-clang-release-shared/full_deploy/host/ecos/2.0.10/Release/x86_64/lib/libecos.so",
+      "ground_truth": [
+        "ecos"
+      ]
+    },
+    {
+      "library": "libelf",
+      "binary_name": "libelf-0.190.so",
+      "binary_hash": "4b22d1d21260111dbda25c91f3c92867638f50323eeea7253a70ea7575f74b12",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/atk/2.38.0/atk_2.38.0_arm_64-gcc-release-shared/full_deploy/host/elfutils/0.190/Release/armv8/lib/libelf-0.190.so",
+      "ground_truth": [
+        "elfutils"
+      ]
+    },
+    {
+      "library": "libelf",
+      "binary_name": "libelf-0.190.so",
+      "binary_hash": "7173d0bd9377d66b5497245c48d976c1df060ab5d8af78df8e98048f5516815b",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/atk/2.38.0/atk_2.38.0_x86_64-gcc-release-shared/full_deploy/host/elfutils/0.190/Release/x86_64/lib/libelf-0.190.so",
+      "ground_truth": [
+        "elfutils"
+      ]
+    },
+    {
+      "library": "suitesparse",
+      "binary_name": "libosqp.so",
+      "binary_hash": "034a11de2712e5fcfcd929f9e2d1cb0d5d97fea53df2fbe7eef5a21a0a846b9b",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/osqp/0.6.3/osqp_0.6.3_x86_64-gcc-release-shared/full_deploy/host/osqp/0.6.3/Release/x86_64/lib/libosqp.so",
+      "ground_truth": [
+        "osqp",
+        "qdldl"
+      ]
+    },
+    {
+      "library": "suitesparse",
+      "binary_name": "libosqp.so",
+      "binary_hash": "250e6fee797e479994ccc26c340ab6350980e65ad024dc2b63b5859e60b43dc2",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/osqp/0.6.3/osqp_0.6.3_x86_64-clang-release-shared/full_deploy/host/osqp/0.6.3/Release/x86_64/lib/libosqp.so",
+      "ground_truth": [
+        "osqp",
+        "qdldl"
+      ]
+    },
+    {
+      "library": "suitesparse",
+      "binary_name": "libosqp.so",
+      "binary_hash": "498ca68e516c0ef908b0e6efec6353f30c91563ac6dc48bf6f2f15a6e441f03f",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/osqp/0.6.3/osqp_0.6.3_arm_64-gcc-release-shared/full_deploy/host/osqp/0.6.3/Release/armv8/lib/libosqp.so",
+      "ground_truth": [
+        "osqp",
+        "qdldl"
+      ]
+    },
+    {
+      "library": "gnulib",
+      "binary_name": "m4",
+      "binary_hash": "dceb986baccdaa5987daefd7887810d2fa812fbde2f1d87b36bbc8ab671ca674",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/nanodbc/cci.20200807/nanodbc_cci.20200807_x86_64-gcc-release-shared/full_deploy/host/m4/1.4.19/Release/x86_64/bin/m4",
+      "ground_truth": [
+        "m4"
+      ]
+    },
+    {
+      "library": "libnop",
+      "binary_name": "libtensorpipe.so",
+      "binary_hash": "775b9cd767f219bec38e83c95469ce7947aa21c58abf3577e6df3bc9c2d34129",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tensorpipe/cci.20210316/tensorpipe_cci.20210316_arm_64-gcc-release-shared/full_deploy/host/tensorpipe/cci.20210316/Release/armv8/lib/libtensorpipe.so",
+      "ground_truth": [
+        "tensorpipe"
+      ]
+    },
+    {
+      "library": "libnop",
+      "binary_name": "libtensorpipe.so",
+      "binary_hash": "dfe9b842de2fb31fd17033b351f04058bf5765313c87c662f2786954f1578f31",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/tensorpipe/cci.20210316/tensorpipe_cci.20210316_x86_64-clang-release-shared/full_deploy/host/tensorpipe/cci.20210316/Release/x86_64/lib/libtensorpipe.so",
+      "ground_truth": [
+        "tensorpipe"
+      ]
+    },
+    {
+      "library": "tscns",
+      "binary_name": "libfmtlog-shared.so",
+      "binary_hash": "74dc1849d56cd76d96f6e31c06ef0fadace332c110e5a33b913e1cf4566c9b18",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/fmtlog/2.2.1/fmtlog_2.2.1_arm_64-gcc-release-shared/full_deploy/host/fmtlog/2.2.1/Release/armv8/lib/libfmtlog-shared.so",
+      "ground_truth": [
+        "fmtlog"
+      ]
+    },
+    {
+      "library": "tscns",
+      "binary_name": "libfmtlog-shared.so",
+      "binary_hash": "710a1d11673219e006453f82812729a39df63c47500c8cc2c3c200a8e5ad6f2a",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/fmtlog/2.2.1/fmtlog_2.2.1_x86_64-clang-release-shared/full_deploy/host/fmtlog/2.2.1/Release/x86_64/lib/libfmtlog-shared.so",
+      "ground_truth": [
+        "fmtlog"
+      ]
+    },
+    {
+      "library": "tscns",
+      "binary_name": "libfmtlog-shared.so",
+      "binary_hash": "d87299fee299a318d78d4e4366df46d857c83ee9cc48e7c85e3b854348ee65d4",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/fmtlog/2.2.1/fmtlog_2.2.1_x86_64-gcc-release-shared/full_deploy/host/fmtlog/2.2.1/Release/x86_64/lib/libfmtlog-shared.so",
+      "ground_truth": [
+        "fmtlog"
+      ]
+    },
+    {
+      "library": "qemu",
+      "binary_name": "libunicorn.so.2",
+      "binary_hash": "171c14a4918f79bf5a1f2e342e5a4a710267d6aa5d0aeecf077d60488cf305cf",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/unicorn/2.0.1/unicorn_2.0.1_x86_64-clang-release-shared/full_deploy/host/unicorn/2.0.1/Release/x86_64/lib/libunicorn.so.2",
+      "ground_truth": [
+        "unicorn"
+      ]
+    },
+    {
+      "library": "popt",
+      "binary_name": "rsync",
+      "binary_hash": "c65193ec90c028c99c8e067144a0b9e95c4c60d21e4d73a24b193c40be042a3e",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/rsync/3.2.7/rsync_3.2.7_arm_64-gcc-release-shared/full_deploy/host/rsync/3.2.7/Release/armv8/bin/rsync",
+      "ground_truth": [
+        "rsync"
+      ]
+    },
+    {
+      "library": "popt",
+      "binary_name": "rsync",
+      "binary_hash": "3e7663522d8eba66f597af7e38632204b45149064303e11a8583960afc122abb",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/rsync/3.2.7/rsync_3.2.7_x86_64-clang-release-shared/full_deploy/host/rsync/3.2.7/Release/x86_64/bin/rsync",
+      "ground_truth": [
+        "rsync"
+      ]
+    },
+    {
+      "library": "lapack",
+      "binary_name": "libopenblas.so.0.3",
+      "binary_hash": "b77a91b3352d4be070f6bd95cdfaf014238eade5ac83e4d9ece81eeee7d55709",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/dlib/19.24.2/dlib_19.24.2_x86_64-clang-release-shared/full_deploy/host/openblas/0.3.26/Release/x86_64/lib/libopenblas.so.0.3",
+      "ground_truth": [
+        "openblas"
+      ]
+    },
+    {
+      "library": "lapack",
+      "binary_name": "libopenblas.so.0.3",
+      "binary_hash": "85a70d15f6e53c41c6eed2b3422c6f45e80245eda33e20b2fdfb162dee5eba90",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/dlib/19.24.2/dlib_19.24.2_x86_64-gcc-release-shared/full_deploy/host/openblas/0.3.26/Release/x86_64/lib/libopenblas.so.0.3",
+      "ground_truth": [
+        "openblas"
+      ]
+    },
+    {
+      "library": "objectbox",
+      "binary_name": "objectbox-generator",
+      "binary_hash": "80459323c5b6a11b89b6180e1274b734115bb3f0a9703849b1f98f9331b502df",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/objectbox-generator/0.13.0/objectbox-generator_0.13.0_x86_64-clang-release-shared/full_deploy/host/objectbox-generator/0.13.0/x86_64/bin/objectbox-generator",
+      "ground_truth": [
+        "objectbox-generator",
+        "flatbuffers"
+      ]
+    },
+    {
+      "library": "sqlite",
+      "binary_name": "doxygen",
+      "binary_hash": "9ea51c0dfe63074f49d1a559adecca2922ca45a50f593ba1f7a2eb73695fedf6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/doxygen/1.14.0/doxygen_1.14.0_arm_64-gcc-release-shared/full_deploy/host/doxygen/1.14.0/Release/armv8/bin/doxygen",
+      "ground_truth": [
+        "doxygen"
+      ]
+    },
+    {
+      "library": "sqlite",
+      "binary_name": "doxygen",
+      "binary_hash": "19938d0118d85efa00a9827515e651f0a528689ea932fa3af2f7ae11940be404",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/doxygen/1.14.0/doxygen_1.14.0_x86_64-clang-release-shared/full_deploy/host/doxygen/1.14.0/Release/x86_64/bin/doxygen",
+      "ground_truth": [
+        "doxygen"
+      ]
+    },
+    {
+      "library": "lightpcapng",
+      "binary_name": "libPcap++.so.25.05",
+      "binary_hash": "b2900ea0f104c7bf3b6f657d3dc01a28e65d0507a8d7a808c28fea664857abc8",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/pcapplusplus/25.05/pcapplusplus_25.05_x86_64-clang-release-shared/full_deploy/host/pcapplusplus/25.05/Release/x86_64/lib/libPcap++.so.25.05",
+      "ground_truth": [
+        "pcapplusplus"
+      ]
+    },
+    {
+      "library": "lightpcapng",
+      "binary_name": "libPcap++.so.25.05",
+      "binary_hash": "34578b8c32e52b7e2730df64fc840952b9cafa98a300b55eacb29fd8bac2980a",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/pcapplusplus/25.05/pcapplusplus_25.05_arm_64-gcc-release-shared/full_deploy/host/pcapplusplus/25.05/Release/armv8/lib/libPcap++.so.25.05",
+      "ground_truth": [
+        "pcapplusplus"
+      ]
+    },
+    {
+      "library": "lightpcapng",
+      "binary_name": "libPcap++.so.25.05",
+      "binary_hash": "c423dbbb3f25aab2a9451f4d8992a33c830b74acd1cf6c97d36cc2d5b0518dee",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/pcapplusplus/25.05/pcapplusplus_25.05_x86_64-gcc-release-shared/full_deploy/host/pcapplusplus/25.05/Release/x86_64/lib/libPcap++.so.25.05",
+      "ground_truth": [
+        "pcapplusplus"
+      ]
+    },
+    {
+      "library": "protobuf",
+      "binary_name": "libperfetto.so",
+      "binary_hash": "bdca5616958c9da5e413f9b2084f483ed0b9307db196d2a4bb8ea5dba0fbb8be",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/perfetto/50.1/perfetto_50.1_x86_64-clang-release-shared/full_deploy/host/perfetto/50.1/Release/x86_64/lib/libperfetto.so",
+      "ground_truth": [
+        "perfetto"
+      ]
+    },
+    {
+      "library": "co",
+      "binary_name": "libco.so",
+      "binary_hash": "d2b97920c6b616fa696452e2bb61698624f5b7eb5708255116387835ea3c8701",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cocoyaxi/2.0.3/cocoyaxi_2.0.3_arm_64-gcc-release-shared/full_deploy/host/cocoyaxi/2.0.3/Release/armv8/lib/libco.so",
+      "ground_truth": [
+        "cocoyaxi",
+        "libbacktrace"
+      ]
+    },
+    {
+      "library": "co",
+      "binary_name": "libco.so",
+      "binary_hash": "0a80cdd08afcdbfc2de2bf2f8fc3f8ae5e15618cf0fc4f28735d5afe434e72f9",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cocoyaxi/2.0.3/cocoyaxi_2.0.3_x86_64-clang-release-shared/full_deploy/host/cocoyaxi/2.0.3/Release/x86_64/lib/libco.so",
+      "ground_truth": [
+        "cocoyaxi"
+      ]
+    },
+    {
+      "library": "co",
+      "binary_name": "libco.so",
+      "binary_hash": "5dc80b67fe29947e3b8975b6e1dc3aab545ac482c364a94387fa6deb589283a2",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cocoyaxi/2.0.3/cocoyaxi_2.0.3_x86_64-gcc-release-shared/full_deploy/host/cocoyaxi/2.0.3/Release/x86_64/lib/libco.so",
+      "ground_truth": [
+        "cocoyaxi"
+      ]
+    },
+    {
+      "library": "so5extra",
+      "binary_name": "libso.5.8.4.so",
+      "binary_hash": "0854e9dc8283e98f65a33de583cfdcc9e5329d451f60acd3767070e3ca4d2d4f",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/sobjectizer/5.8.4/sobjectizer_5.8.4_x86_64-clang-release-shared/full_deploy/host/sobjectizer/5.8.4/Release/x86_64/lib/libso.5.8.4.so",
+      "ground_truth": [
+        "sobjectizer"
+      ]
+    },
+    {
+      "library": "so5extra",
+      "binary_name": "libso.5.8.4.so",
+      "binary_hash": "42943b1768a920d7f5eaaf914d7d415d49d4a18fc3eb4790d05a519935b9ef1e",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/sobjectizer/5.8.4/sobjectizer_5.8.4_x86_64-gcc-release-shared/full_deploy/host/sobjectizer/5.8.4/Release/x86_64/lib/libso.5.8.4.so",
+      "ground_truth": [
+        "sobjectizer"
+      ]
+    },
+    {
+      "library": "so5extra",
+      "binary_name": "libso.5.8.1.so",
+      "binary_hash": "63eebabdf7d5bb7e6e0e00557365e9a6199f31828c5e7e43466acedab515ae06",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/so5extra/1.6.1/so5extra_1.6.1_x86_64-gcc-release-shared/full_deploy/host/sobjectizer/5.8.1/Release/x86_64/lib/libso.5.8.1.so",
+      "ground_truth": [
+        "sobjectizer"
+      ]
+    },
+    {
+      "library": "so5extra",
+      "binary_name": "libso.5.8.1.so",
+      "binary_hash": "56e8bdfda98aabe740e95ba4202348bc4cfc4a17a1d97fc51b58c0c0209e1889",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/so5extra/1.6.1/so5extra_1.6.1_x86_64-clang-release-shared/full_deploy/host/sobjectizer/5.8.1/Release/x86_64/lib/libso.5.8.1.so",
+      "ground_truth": [
+        "sobjectizer"
+      ]
+    },
+    {
+      "library": "lua",
+      "binary_name": "genie",
+      "binary_hash": "cf9eee8fd35f75394f5be079adaa7641711a74acc1522076ca49845fb3ba19d2",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/genie/1181/genie_1181_x86_64-gcc-release-shared/full_deploy/host/genie/1181/Release/x86_64/bin/genie",
+      "ground_truth": [
+        "genie"
+      ]
+    },
+    {
+      "library": "lzo2",
+      "binary_name": "liblzo2.so.2.0.0",
+      "binary_hash": "a243f90e19d3f4ab4db8975772007bab881a9c7f9903cef964ee8675adaad6c1",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/lzo/2.10/lzo_2.10_x86_64-gcc-release-shared/full_deploy/host/lzo/2.10/Release/x86_64/lib/liblzo2.so.2.0.0",
+      "ground_truth": [
+        "lzo"
+      ]
+    },
+    {
+      "library": "lzo2",
+      "binary_name": "liblzo2.so.2.0.0",
+      "binary_hash": "dbf8593506fc2997c0e34b306626edf0b27151f0bd1f38674b1391e6c5b7741f",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/lzo/2.10/lzo_2.10_arm_64-gcc-release-shared/full_deploy/host/lzo/2.10/Release/armv8/lib/liblzo2.so.2.0.0",
+      "ground_truth": [
+        "lzo"
+      ]
+    },
+    {
+      "library": "lzo2",
+      "binary_name": "liblzo2.so.2.0.0",
+      "binary_hash": "95db12b40dbe0725830bf275ad9009928fbbb120ed088d9e26cfa8f0030470e6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/lzo/2.10/lzo_2.10_x86_64-clang-release-shared/full_deploy/host/lzo/2.10/Release/x86_64/lib/liblzo2.so.2.0.0",
+      "ground_truth": [
+        "lzo"
+      ]
+    },
+    {
+      "library": "lapack",
+      "binary_name": "libopenblas.so.0.3",
+      "binary_hash": "7daac5f2ff3cea615b2ce704b30f5cafdfdfc58626151a47977d4c661f28f3e6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/openblas/0.3.27/openblas_0.3.27_arm_64-gcc-release-shared/full_deploy/host/openblas/0.3.27/Release/armv8/lib/libopenblas.so.0.3",
+      "ground_truth": [
+        "openblas"
+      ]
+    },
+    {
+      "library": "lapack",
+      "binary_name": "libopenblas.so.0.3",
+      "binary_hash": "054b9999ac52ca2a72fd17ca965c8f922cde148c247df1e5a9146de819480679",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/openblas/0.3.27/openblas_0.3.27_x86_64-clang-release-shared/full_deploy/host/openblas/0.3.27/Release/x86_64/lib/libopenblas.so.0.3",
+      "ground_truth": [
+        "openblas"
+      ]
+    },
+    {
+      "library": "lapack",
+      "binary_name": "libopenblas.so.0.3",
+      "binary_hash": "378734b0ba86d5ac2dc9f2bb2737f1f182836db88015eb7a0c2ce4dd165bebc3",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/openblas/0.3.27/openblas_0.3.27_x86_64-gcc-release-shared/full_deploy/host/openblas/0.3.27/Release/x86_64/lib/libopenblas.so.0.3",
+      "ground_truth": [
+        "openblas"
+      ]
+    },
+    {
+      "library": "sqlite",
+      "binary_name": "libsqlite3mc.so",
+      "binary_hash": "9ca7a6a47fb4fb296689011b7f1912228c545aca7267bc3c33e6d06307bbe849",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/sqlite3mc/2.2.3/sqlite3mc_2.2.3_x86_64-gcc-release-shared/full_deploy/host/sqlite3mc/2.2.3/Release/x86_64/lib/libsqlite3mc.so",
+      "ground_truth": [
+        "sqlite3mc"
+      ]
+    },
+    {
+      "library": "dcraw",
+      "binary_name": "libraw.so",
+      "binary_hash": "5ddc31aa0749b81aed446717a35a2d2da1670620e46decf4032500df901714a1",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/freeimage/3.18.0/freeimage_3.18.0_x86_64-clang-release-shared/full_deploy/host/libraw/0.20.2/Release/x86_64/lib/libraw.so",
+      "ground_truth": [
+        "libraw"
+      ]
+    },
+    {
+      "library": "dcraw",
+      "binary_name": "libraw.so",
+      "binary_hash": "997925d74064cc64141bf2507574a05dcc657916a67e4acb6ccf45b960548b42",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/freeimage/3.18.0/freeimage_3.18.0_x86_64-gcc-release-shared/full_deploy/host/libraw/0.20.2/Release/x86_64/lib/libraw.so",
+      "ground_truth": [
+        "libraw"
+      ]
+    },
+    {
+      "library": "lapack",
+      "binary_name": "libopenblas.so.0.3",
+      "binary_hash": "1c52103b64c24d9b2be313a606f1cd77ae2adbd99579c0e4de01ee327eae4821",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/armadillo/12.6.4/armadillo_12.6.4_x86_64-clang-release-shared/full_deploy/host/openblas/0.3.25/Release/x86_64/lib/libopenblas.so.0.3",
+      "ground_truth": [
+        "openblas"
+      ]
+    },
+    {
+      "library": "lapack",
+      "binary_name": "libopenblas.so.0.3",
+      "binary_hash": "52ea68c4257fa0d378ac92f2ad31bad6b8264cf647dc9bb776f708ff1a5951ef",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/armadillo/12.6.4/armadillo_12.6.4_x86_64-gcc-release-shared/full_deploy/host/openblas/0.3.25/Release/x86_64/lib/libopenblas.so.0.3",
+      "ground_truth": [
+        "openblas"
+      ]
+    },
+    {
+      "library": "sundials",
+      "binary_name": "libIPhreeqc.so.3.8.1",
+      "binary_hash": "3d8a29018fced6beeaa6188ca402db6efee0151fbde8d4c46469e1c7e3a73606",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/iphreeqc/3.8.1/iphreeqc_3.8.1_x86_64-clang-release-shared/full_deploy/host/iphreeqc/3.8.1/Release/x86_64/lib/libIPhreeqc.so.3.8.1",
+      "ground_truth": [
+        "iphreeqc"
+      ]
+    },
+    {
+      "library": "sundials",
+      "binary_name": "libIPhreeqc.so.3.8.1",
+      "binary_hash": "29ae9373383eae6f3055f8eb4c748b192551d302855ddc3f10a50dc69745b15a",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/iphreeqc/3.8.1/iphreeqc_3.8.1_arm_64-gcc-release-shared/full_deploy/host/iphreeqc/3.8.1/Release/armv8/lib/libIPhreeqc.so.3.8.1",
+      "ground_truth": [
+        "iphreeqc"
+      ]
+    },
+    {
+      "library": "sundials",
+      "binary_name": "libIPhreeqc.so.3.8.1",
+      "binary_hash": "0ce86aba7aacbe9c00edc3094536a062034b75ec1ba1cca1160e466bd92a957e",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/iphreeqc/3.8.1/iphreeqc_3.8.1_x86_64-gcc-release-shared/full_deploy/host/iphreeqc/3.8.1/Release/x86_64/lib/libIPhreeqc.so.3.8.1",
+      "ground_truth": [
+        "iphreeqc"
+      ]
+    },
+    {
+      "library": "cppcommon",
+      "binary_name": "libcppbenchmark.so",
+      "binary_hash": "68741895100df2a5d903134e1f6cbdce44e4e4a5442c88875fe07f65b9034a06",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cppbenchmark/cci.20201029/cppbenchmark_cci.20201029_x86_64-gcc-release-shared/full_deploy/host/cppbenchmark/cci.20201029/Release/x86_64/lib/libcppbenchmark.so",
+      "ground_truth": [
+        "cppbenchmark"
+      ]
+    },
+    {
+      "library": "cppcommon",
+      "binary_name": "libcppbenchmark.so",
+      "binary_hash": "29c89084951ba046386ed2cbea225aaa13157bbfd6863f3de6e843373548230c",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cppbenchmark/cci.20201029/cppbenchmark_cci.20201029_arm_64-gcc-release-shared/full_deploy/host/cppbenchmark/cci.20201029/Release/armv8/lib/libcppbenchmark.so",
+      "ground_truth": [
+        "cppbenchmark"
+      ]
+    },
+    {
+      "library": "cppcommon",
+      "binary_name": "libcppbenchmark.so",
+      "binary_hash": "9ce0e2262638f52035f97c025d581d8f2e0e3fb5d77f691802a0ea2d0c3a3146",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/cppbenchmark/cci.20201029/cppbenchmark_cci.20201029_x86_64-clang-release-shared/full_deploy/host/cppbenchmark/cci.20201029/Release/x86_64/lib/libcppbenchmark.so",
+      "ground_truth": [
+        "cppbenchmark"
+      ]
+    },
+    {
+      "library": "iir1",
+      "binary_name": "libDSPFilters.so",
+      "binary_hash": "d2719e84611d8c3a9dd2291c45192fb55267b283b97e81c076367f0cd22b8658",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/dsp-filters/cci.20170309/dsp-filters_cci.20170309_x86_64-clang-release-shared/full_deploy/host/dsp-filters/cci.20170309/Release/x86_64/lib/libDSPFilters.so",
+      "ground_truth": [
+        "dsp-filters"
+      ]
+    },
+    {
+      "library": "iir1",
+      "binary_name": "libDSPFilters.so",
+      "binary_hash": "6ea46ff98539cadc7dc3d67215d65b64283fe2478cdb4b19c27a0a2605b9b95d",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/dsp-filters/cci.20170309/dsp-filters_cci.20170309_x86_64-gcc-release-shared/full_deploy/host/dsp-filters/cci.20170309/Release/x86_64/lib/libDSPFilters.so",
+      "ground_truth": [
+        "dsp-filters"
+      ]
+    },
+    {
+      "library": "jsoncons",
+      "binary_name": "libouster_client.so",
+      "binary_hash": "f4d69fd24396d115d487c8a5013b7347c05ab9400cd30c36660d7759cdb4bda6",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/ouster_sdk/0.13.0/ouster_sdk_0.13.0_arm_64-gcc-release-shared/full_deploy/host/ouster_sdk/0.13.0/Release/armv8/lib/libouster_client.so",
+      "ground_truth": [
+        "ouster_sdk"
+      ]
+    },
+    {
+      "library": "libzip",
+      "binary_name": "libzip.so",
+      "binary_hash": "4d766f41f5b18b096b6d6defa7d95bd08c0164508e7de28aba70784c6a2af557",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/assimp/5.4.3/assimp_5.4.3_x86_64-gcc-release-shared/full_deploy/host/kuba-zip/0.3.0/Release/x86_64/lib/libzip.so",
+      "ground_truth": [
+        "kuba-zip"
+      ]
+    },
+    {
+      "library": "expat",
+      "binary_name": "libcom-api.so",
+      "binary_hash": "8a9f418c386f711adf4afa57041aae7428c350a33dc337b225eb458f6d02989d",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/aaf/1.2.0/aaf_1.2.0_x86_64-gcc-release-shared/full_deploy/host/aaf/1.2.0/Release/x86_64/lib/libcom-api.so",
+      "ground_truth": [
+        "aaf"
+      ]
+    },
+    {
+      "library": "lapack",
+      "binary_name": "libopenblas.so.0.3",
+      "binary_hash": "ab1b6bac7539ffcf62385135a680139e579bdd25ba67d62065391fa891165767",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/toon/3.2/toon_3.2_arm_64-gcc-release-shared/full_deploy/host/openblas/0.3.26/Release/armv8/lib/libopenblas.so.0.3",
+      "ground_truth": [
+        "openblas"
+      ]
+    },
+    {
+      "library": "paho-mqttpp3",
+      "binary_name": "libpaho-mqttpp3.so.1.5.3",
+      "binary_hash": "6320ad27e018b5c111681928982dbd4a3bd508cd5cd87f7ab92fdb0fee279938",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/paho-mqtt-cpp/1.5.3/paho-mqtt-cpp_1.5.3_x86_64-gcc-release-shared/full_deploy/host/paho-mqtt-cpp/1.5.3/Release/x86_64/lib/libpaho-mqttpp3.so.1.5.3",
+      "ground_truth": [
+        "paho-mqtt-cpp"
+      ]
+    },
+    {
+      "library": "paho-mqttpp3",
+      "binary_name": "libpaho-mqttpp3.so.1.5.3",
+      "binary_hash": "36d565b61a25ef34446cba0326202fe14caf704bf25d258835cf5b91ce9fff7c",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/paho-mqtt-cpp/1.5.3/paho-mqtt-cpp_1.5.3_arm_64-gcc-release-shared/full_deploy/host/paho-mqtt-cpp/1.5.3/Release/armv8/lib/libpaho-mqttpp3.so.1.5.3",
+      "ground_truth": [
+        "paho-mqtt-cpp"
+      ]
+    },
+    {
+      "library": "paho-mqttpp3",
+      "binary_name": "libpaho-mqttpp3.so.1.5.3",
+      "binary_hash": "745213d172b723a034de233197f47e13a70cba55597a545c8a766b917a4fb68b",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/paho-mqtt-cpp/1.5.3/paho-mqtt-cpp_1.5.3_x86_64-clang-release-shared/full_deploy/host/paho-mqtt-cpp/1.5.3/Release/x86_64/lib/libpaho-mqttpp3.so.1.5.3",
+      "ground_truth": [
+        "paho-mqtt-cpp"
+      ]
+    },
+    {
+      "library": "google-cloud-cpp-common",
+      "binary_name": "libgoogle_cloud_cpp_common.so.2.28.0",
+      "binary_hash": "edebe7fa66260a108db12f63ebdee4a40eaa420865e5e47b8cf75ba0a1142ce0",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/google-cloud-cpp/2.28.0/google-cloud-cpp_2.28.0_x86_64-clang-release-shared/full_deploy/host/google-cloud-cpp/2.28.0/Release/x86_64/lib/libgoogle_cloud_cpp_common.so.2.28.0",
+      "ground_truth": [
+        "google-cloud-cpp"
+      ]
+    },
+    {
+      "library": "google-cloud-cpp-common",
+      "binary_name": "libgoogle_cloud_cpp_common.so.2.28.0",
+      "binary_hash": "2d303a50d9f90c949ebc66f9137139549f22fc7fe5bae41941e5da162d0d567c",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/google-cloud-cpp/2.28.0/google-cloud-cpp_2.28.0_x86_64-gcc-release-shared/full_deploy/host/google-cloud-cpp/2.28.0/Release/x86_64/lib/libgoogle_cloud_cpp_common.so.2.28.0",
+      "ground_truth": [
+        "google-cloud-cpp"
+      ]
+    },
+    {
+      "library": "boost-regex",
+      "binary_name": "libjinja2cpp.so.1.3.2",
+      "binary_hash": "8ccbcfc25094d55ddd4052e96cec0d4a9893b70de6b593adf7048a1399972e4a",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/jinja2cpp/1.3.2/jinja2cpp_1.3.2_x86_64-gcc-release-shared/full_deploy/host/jinja2cpp/1.3.2/Release/x86_64/lib/libjinja2cpp.so.1.3.2",
+      "ground_truth": [
+        "jinja2cpp",
+        "boost"
+      ]
+    },
+    {
+      "library": "civetweb",
+      "binary_name": "libest-3.2.0p.so",
+      "binary_hash": "6b5504d6a709a565c0db3f31ef88252fedd0613a5d248704267369d04dd01b8d",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libest/3.2.0/libest_3.2.0_arm_64-gcc-release-shared/full_deploy/host/libest/3.2.0/Release/armv8/lib/libest-3.2.0p.so",
+      "ground_truth": [
+        "libest",
+        "mongoose",
+        "jsmn"
+      ]
+    },
+    {
+      "library": "libsafec",
+      "binary_name": "libest-3.2.0p.so",
+      "binary_hash": "6b5504d6a709a565c0db3f31ef88252fedd0613a5d248704267369d04dd01b8d",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libest/3.2.0/libest_3.2.0_arm_64-gcc-release-shared/full_deploy/host/libest/3.2.0/Release/armv8/lib/libest-3.2.0p.so",
+      "ground_truth": [
+        "libest",
+        "mongoose",
+        "jsmn"
+      ]
+    },
+    {
+      "library": "civetweb",
+      "binary_name": "libest-3.2.0p.so",
+      "binary_hash": "13b11fe7660a84f6994bfe66fcfdb768edde8008b355bd026f60d22d91e5c3c9",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libest/3.2.0/libest_3.2.0_x86_64-gcc-release-shared/full_deploy/host/libest/3.2.0/Release/x86_64/lib/libest-3.2.0p.so",
+      "ground_truth": [
+        "libest",
+        "mongoose",
+        "jsmn"
+      ]
+    },
+    {
+      "library": "libsafec",
+      "binary_name": "libest-3.2.0p.so",
+      "binary_hash": "13b11fe7660a84f6994bfe66fcfdb768edde8008b355bd026f60d22d91e5c3c9",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libest/3.2.0/libest_3.2.0_x86_64-gcc-release-shared/full_deploy/host/libest/3.2.0/Release/x86_64/lib/libest-3.2.0p.so",
+      "ground_truth": [
+        "libest",
+        "mongoose",
+        "jsmn"
+      ]
+    },
+    {
+      "library": "civetweb",
+      "binary_name": "libest-3.2.0p.so",
+      "binary_hash": "4cd4151014c888d2cac8dfc8433609aa1d185b74db29ae91623abedc52db6e2f",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libest/3.2.0/libest_3.2.0_x86_64-clang-release-shared/full_deploy/host/libest/3.2.0/Release/x86_64/lib/libest-3.2.0p.so",
+      "ground_truth": [
+        "libest",
+        "mongoose",
+        "jsmn"
+      ]
+    },
+    {
+      "library": "libsafec",
+      "binary_name": "libest-3.2.0p.so",
+      "binary_hash": "4cd4151014c888d2cac8dfc8433609aa1d185b74db29ae91623abedc52db6e2f",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libest/3.2.0/libest_3.2.0_x86_64-clang-release-shared/full_deploy/host/libest/3.2.0/Release/x86_64/lib/libest-3.2.0p.so",
+      "ground_truth": [
+        "libest",
+        "mongoose",
+        "jsmn"
+      ]
+    },
+    {
+      "library": "pegtl-2",
+      "binary_name": "lib7bitConf.so.1.2.0",
+      "binary_hash": "cb40c0287db930e49cf37f51e08b4836d249fedc11469b92f12ccb893d6fb0ea",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/7bitconf/1.2.0/7bitconf_1.2.0_x86_64-clang-release-shared/full_deploy/host/7bitconf/1.2.0/Release/x86_64/lib/lib7bitConf.so.1.2.0",
+      "ground_truth": [
+        "7bitconf",
+        "taocpp-json"
+      ]
+    },
+    {
+      "library": "nmealib",
+      "binary_name": "libnmea.so",
+      "binary_hash": "6e24fd9ecb7c6d6886532dec52eede6519089d0a3fc2061aa0e1ec7caea183ed",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/nmea/0.5.3/nmea_0.5.3_x86_64-gcc-release-shared/full_deploy/host/nmea/0.5.3/Release/x86_64/lib/libnmea.so",
+      "ground_truth": [
+        "nmea"
+      ]
+    },
+    {
+      "library": "lzma-sdk",
+      "binary_name": "7za",
+      "binary_hash": "7136066fa53666fc757f0de502e35dfb5c35f2fddb42fa4d13ff8cbbb67d006d",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/p7zip/16.02/p7zip_16.02_arm_64-gcc-release-shared/full_deploy/host/p7zip/16.02/Release/armv8/bin/7za",
+      "ground_truth": [
+        "p7zip",
+        "7zip"
+      ]
+    },
+    {
+      "library": "asn1c",
+      "binary_name": "libiec61850.so.1.6.0",
+      "binary_hash": "043448fbc9ab04728a00bf45cca13bda29258280815720dfcd77100c62265374",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libiec61850/1.6.0/libiec61850_1.6.0_x86_64-clang-release-shared/full_deploy/host/libiec61850/1.6.0/Release/x86_64/lib/libiec61850.so.1.6.0",
+      "ground_truth": [
+        "libiec61850"
+      ]
+    },
+    {
+      "library": "asn1c",
+      "binary_name": "libiec61850.so.1.6.0",
+      "binary_hash": "49ff6472adcda89ac6743b1ce0cda89b0c401161823a375ee4c37c25f188e40e",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libiec61850/1.6.0/libiec61850_1.6.0_x86_64-gcc-release-shared/full_deploy/host/libiec61850/1.6.0/Release/x86_64/lib/libiec61850.so.1.6.0",
+      "ground_truth": [
+        "libiec61850"
+      ]
+    },
+    {
+      "library": "asn1c",
+      "binary_name": "libiec61850.so.1.6.0",
+      "binary_hash": "ae8488de3858d28b96d22487a620510f577ed44e271362302f4b59fdc500487a",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libiec61850/1.6.0/libiec61850_1.6.0_arm_64-gcc-release-shared/full_deploy/host/libiec61850/1.6.0/Release/armv8/lib/libiec61850.so.1.6.0",
+      "ground_truth": [
+        "libiec61850"
+      ]
+    },
+    {
+      "library": "boost-regex",
+      "binary_name": "audiowaveform",
+      "binary_hash": "a2e90bcdeeac925b65ddd61bf5c045df5e6da789f60ce6970e4e2b22f48e1e5e",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/audiowaveform/1.10.1/audiowaveform_1.10.1_arm_64-gcc-release-shared/full_deploy/host/audiowaveform/1.10.1/Release/armv8/bin/audiowaveform",
+      "ground_truth": [
+        "audiowaveform"
+      ]
+    },
+    {
+      "library": "libzip",
+      "binary_name": "libzip.so",
+      "binary_hash": "134ca66b3b1b616e90458667509888284d820fdba16d14c7925a99904be11152",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/duckx/1.2.2/duckx_1.2.2_arm_64-gcc-release-shared/full_deploy/host/kuba-zip/0.3.1/Release/armv8/lib/libzip.so",
+      "ground_truth": [
+        "kuba-zip"
+      ]
+    },
+    {
+      "library": "boost-multiprecision",
+      "binary_name": "libmfast.so.1.3.0",
+      "binary_hash": "a9a883374882e32173c2c6a6d798ff41cf025a04bd9ba536c3a20c8ff242c736",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/mfast/1.2.2/mfast_1.2.2_arm_64-gcc-release-shared/full_deploy/host/mfast/1.2.2/Release/armv8/lib/libmfast.so.1.3.0",
+      "ground_truth": [
+        "mfast"
+      ]
+    },
+    {
+      "library": "sqlite",
+      "binary_name": "libfastrtps.so.2.14.3",
+      "binary_hash": "9bd10ba90fbaba83e2600387cb2be9ea2b2c0530bc6aaa57784756755fc25bab",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/fast-dds/2.14.3/fast-dds_2.14.3_arm_64-gcc-release-shared/full_deploy/host/fast-dds/2.14.3/Release/armv8/lib/libfastrtps.so.2.14.3",
+      "ground_truth": [
+        "fast-dds",
+        "asio"
+      ]
+    },
+    {
+      "library": "sqlite",
+      "binary_name": "libfastrtps.so.2.14.3",
+      "binary_hash": "dca17e4978bdf1c05234cca0f5f0ef845237b02ceafd4dacdd30ded0cd068675",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/fast-dds/2.14.3/fast-dds_2.14.3_x86_64-gcc-release-shared/full_deploy/host/fast-dds/2.14.3/Release/x86_64/lib/libfastrtps.so.2.14.3",
+      "ground_truth": [
+        "fast-dds"
+      ]
+    },
+    {
+      "library": "sqlite",
+      "binary_name": "libfastrtps.so.2.14.3",
+      "binary_hash": "6f09d225ce1b4770cd2a8a92dc70e6824342ba48d1b53da9a04aa81f1ee237cb",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/fast-dds/2.14.3/fast-dds_2.14.3_x86_64-clang-release-shared/full_deploy/host/fast-dds/2.14.3/Release/x86_64/lib/libfastrtps.so.2.14.3",
+      "ground_truth": [
+        "fast-dds"
+      ]
+    },
+    {
+      "library": "dcraw",
+      "binary_name": "libraw.so",
+      "binary_hash": "f239d3d18ad9dc371763611018f6c63f75dc89d8958eab6db6858e75b3b069fb",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libraw/0.21.4/libraw_0.21.4_x86_64-clang-release-shared/full_deploy/host/libraw/0.21.4/Release/x86_64/lib/libraw.so",
+      "ground_truth": [
+        "libraw"
+      ]
+    },
+    {
+      "library": "dcraw",
+      "binary_name": "libraw.so",
+      "binary_hash": "3332561c7ca95afad8b1b503c293f34b5680040cd20bfc43de6a958bed09b8b9",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/libraw/0.21.4/libraw_0.21.4_arm_64-gcc-release-shared/full_deploy/host/libraw/0.21.4/Release/armv8/lib/libraw.so",
+      "ground_truth": [
+        "libraw"
+      ]
+    },
+    {
+      "library": "grpc",
+      "binary_name": "bazel",
+      "binary_hash": "99445bf4ac2fa6e650bc46741004f22431e4f7f7840a3dbc259b70c61fb9fc72",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/bazel/7.2.1/bazel_7.2.1_x86_64-clang-release-shared/full_deploy/host/bazel/7.2.1/x86_64/bin/bazel",
+      "ground_truth": [
+        "bazel"
+      ]
+    },
+    {
+      "library": "protobuf",
+      "binary_name": "bazel",
+      "binary_hash": "99445bf4ac2fa6e650bc46741004f22431e4f7f7840a3dbc259b70c61fb9fc72",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/bazel/7.2.1/bazel_7.2.1_x86_64-clang-release-shared/full_deploy/host/bazel/7.2.1/x86_64/bin/bazel",
+      "ground_truth": [
+        "bazel"
+      ]
+    },
+    {
+      "library": "grpc",
+      "binary_name": "bazel",
+      "binary_hash": "d8b77eb92254342b43588aab8e7911322eb3c74473244d639c9c93186edf9bcc",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/bazel/7.2.1/bazel_7.2.1_arm_64-gcc-release-shared/full_deploy/host/bazel/7.2.1/armv8/bin/bazel",
+      "ground_truth": [
+        "bazel"
+      ]
+    },
+    {
+      "library": "protobuf",
+      "binary_name": "bazel",
+      "binary_hash": "d8b77eb92254342b43588aab8e7911322eb3c74473244d639c9c93186edf9bcc",
+      "binary_path": "data/benchmarks/conan_bench/test_cases/bazel/7.2.1/bazel_7.2.1_arm_64-gcc-release-shared/full_deploy/host/bazel/7.2.1/armv8/bin/bazel",
+      "ground_truth": [
+        "bazel"
+      ]
+    }
+  ],
+  "aggregated": {
+    "fn_retrieval_by_lib": {
+      "boost": 32,
+      "nlohmann_json": 18,
+      "xxhash": 9,
+      "libtommath": 6,
+      "pcg-c": 6,
+      "tinycthread": 6,
+      "butteraugli": 5,
+      "stb": 5,
+      "zlib": 4,
+      "utf8proc": 3,
+      "MurmurHash3": 3,
+      "asio": 3,
+      "eigen": 3,
+      "suitesparse": 3,
+      "flatbuffers": 3,
+      "cxxopts": 3,
+      "cn-cbor": 3,
+      "cppbenchmark": 3,
+      "lz4": 3,
+      "zfp": 3,
+      "onednn": 3,
+      "xbyak": 3,
+      "tweetnacl": 3,
+      "mongoose": 3,
+      "jsmn": 3,
+      "xmp-toolkit-sdk": 3,
+      "json-schema-validator": 3,
+      "zstd": 3,
+      "lodepng": 3,
+      "flex": 3,
+      "bx": 2,
+      "librasterlite2": 2,
+      "xmp": 2,
+      "yuarel": 2,
+      "gnulib": 2,
+      "beauty": 2,
+      "spdlog": 2,
+      "fmt": 2,
+      "coin-utils": 1,
+      "coin-osi": 1,
+      "qdldl": 1,
+      "gn": 1,
+      "r8brain-free-src": 1,
+      "objectbox-generator": 1,
+      "lyra": 1,
+      "gcc": 1,
+      "protobuf": 1,
+      "sioclient": 1,
+      "nasm": 1,
+      "premake": 1,
+      "lua": 1,
+      "libzip": 1,
+      "fusepp": 1
+    },
+    "fn_verification_by_lib": {
+      "nlohmann_json": 4,
+      "boost-math": 3,
+      "cocoyaxi": 3,
+      "lzo": 3,
+      "eigen": 3,
+      "blosc": 3,
+      "paho-mqtt-cpp": 3,
+      "divsufsort": 3,
+      "tinycthread": 3,
+      "elfutils": 2,
+      "websocketpp": 2,
+      "openexr": 2,
+      "slre": 2,
+      "kuba-zip": 2,
+      "google-cloud-cpp": 2,
+      "7zip": 2,
+      "suitesparse": 1,
+      "xmp": 1,
+      "boost": 1,
+      "asio": 1,
+      "libtar": 1,
+      "fmt": 1,
+      "popt": 1,
+      "spdlog": 1,
+      "nmea": 1
+    },
+    "fp_by_lib": {
+      "lapack": 8,
+      "sqlite": 6,
+      "suitesparse": 5,
+      "so5extra": 4,
+      "dcraw": 4,
+      "tscns": 3,
+      "lightpcapng": 3,
+      "protobuf": 3,
+      "co": 3,
+      "lzo2": 3,
+      "sundials": 3,
+      "cppcommon": 3,
+      "paho-mqttpp3": 3,
+      "civetweb": 3,
+      "libsafec": 3,
+      "asn1c": 3,
+      "libelf": 2,
+      "libnop": 2,
+      "popt": 2,
+      "iir1": 2,
+      "libzip": 2,
+      "google-cloud-cpp-common": 2,
+      "boost-regex": 2,
+      "grpc": 2,
+      "divsufsort": 1,
+      "gnulib": 1,
+      "qemu": 1,
+      "objectbox": 1,
+      "lua": 1,
+      "jsoncons": 1,
+      "expat": 1,
+      "pegtl-2": 1,
+      "nmealib": 1,
+      "lzma-sdk": 1,
+      "boost-multiprecision": 1
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "BinaryAI": {
+    "overall": {
+      "tp": 2174,
+      "fp": 2533,
+      "fn": 1597,
+      "count": 3403,
+      "precision": 46.19,
+      "recall": 57.65,
+      "f1": 51.29
+    },
+    "gcc+x86_64": {
+      "tp": 767,
+      "fp": 886,
+      "fn": 569,
+      "count": 1208,
+      "precision": 46.4,
+      "recall": 57.41,
+      "f1": 51.32
+    },
+    "clang+x86_64": {
+      "tp": 768,
+      "fp": 873,
+      "fn": 542,
+      "count": 1180,
+      "precision": 46.8,
+      "recall": 58.63,
+      "f1": 52.05
+    },
+    "gcc+arm": {
+      "tp": 638,
+      "fp": 773,
+      "fn": 485,
+      "count": 1013,
+      "precision": 45.22,
+      "recall": 56.81,
+      "f1": 50.36
+    }
+  },
+  "B2SFinder": {
+    "overall": {
+      "tp": 751,
+      "fp": 817,
+      "fn": 3020,
+      "count": 3403,
+      "precision": 47.9,
+      "recall": 19.92,
+      "f1": 28.14
+    },
+    "gcc+x86_64": {
+      "tp": 270,
+      "fp": 296,
+      "fn": 1066,
+      "count": 1208,
+      "precision": 47.7,
+      "recall": 20.21,
+      "f1": 28.39
+    },
+    "clang+x86_64": {
+      "tp": 259,
+      "fp": 278,
+      "fn": 1051,
+      "count": 1180,
+      "precision": 48.23,
+      "recall": 19.77,
+      "f1": 28.04
+    },
+    "gcc+arm": {
+      "tp": 222,
+      "fp": 243,
+      "fn": 901,
+      "count": 1013,
+      "precision": 47.74,
+      "recall": 19.77,
+      "f1": 27.96
+    }
+  },
+  "BAT": {
+    "overall": {
+      "tp": 1609,
+      "fp": 602,
+      "fn": 2162,
+      "count": 3403,
+      "precision": 72.77,
+      "recall": 42.67,
+      "f1": 53.8
+    },
+    "gcc+x86_64": {
+      "tp": 571,
+      "fp": 222,
+      "fn": 765,
+      "count": 1208,
+      "precision": 72.01,
+      "recall": 42.74,
+      "f1": 53.64
+    },
+    "clang+x86_64": {
+      "tp": 572,
+      "fp": 192,
+      "fn": 738,
+      "count": 1180,
+      "precision": 74.87,
+      "recall": 43.66,
+      "f1": 55.16
+    },
+    "gcc+arm": {
+      "tp": 466,
+      "fp": 187,
+      "fn": 657,
+      "count": 1013,
+      "precision": 71.36,
+      "recall": 41.5,
+      "f1": 52.48
+    }
+  },
+  "OssPolice": {
+    "overall": {
+      "tp": 863,
+      "fp": 2161,
+      "fn": 2908,
+      "count": 3403,
+      "precision": 28.54,
+      "recall": 22.89,
+      "f1": 25.4
+    },
+    "gcc+x86_64": {
+      "tp": 291,
+      "fp": 804,
+      "fn": 1045,
+      "count": 1208,
+      "precision": 26.58,
+      "recall": 21.78,
+      "f1": 23.94
+    },
+    "clang+x86_64": {
+      "tp": 306,
+      "fp": 779,
+      "fn": 1004,
+      "count": 1180,
+      "precision": 28.2,
+      "recall": 23.36,
+      "f1": 25.55
+    },
+    "gcc+arm": {
+      "tp": 266,
+      "fp": 578,
+      "fn": 857,
+      "count": 1013,
+      "precision": 31.52,
+      "recall": 23.69,
+      "f1": 27.05
+    }
+  },
+  "CT1": {
+    "overall": {
+      "tp": 1224,
+      "fp": 1264,
+      "fn": 2547,
+      "count": 3403,
+      "precision": 49.2,
+      "recall": 32.46,
+      "f1": 39.11
+    },
+    "gcc+x86_64": {
+      "tp": 436,
+      "fp": 467,
+      "fn": 900,
+      "count": 1208,
+      "precision": 48.28,
+      "recall": 32.63,
+      "f1": 38.94
+    },
+    "clang+x86_64": {
+      "tp": 431,
+      "fp": 443,
+      "fn": 879,
+      "count": 1180,
+      "precision": 49.31,
+      "recall": 32.9,
+      "f1": 39.47
+    },
+    "gcc+arm": {
+      "tp": 356,
+      "fp": 354,
+      "fn": 767,
+      "count": 1013,
+      "precision": 50.14,
+      "recall": 31.7,
+      "f1": 38.84
+    }
+  },
+  "CT2": {
+    "overall": {
+      "tp": 1184,
+      "fp": 314,
+      "fn": 2587,
+      "count": 3403,
+      "precision": 79.04,
+      "recall": 31.4,
+      "f1": 44.94
+    },
+    "gcc+x86_64": {
+      "tp": 421,
+      "fp": 107,
+      "fn": 915,
+      "count": 1208,
+      "precision": 79.73,
+      "recall": 31.51,
+      "f1": 45.17
+    },
+    "clang+x86_64": {
+      "tp": 421,
+      "fp": 119,
+      "fn": 889,
+      "count": 1180,
+      "precision": 77.96,
+      "recall": 32.14,
+      "f1": 45.52
+    },
+    "gcc+arm": {
+      "tp": 342,
+      "fp": 88,
+      "fn": 781,
+      "count": 1013,
+      "precision": 79.53,
+      "recall": 30.45,
+      "f1": 44.04
+    }
+  }
+}

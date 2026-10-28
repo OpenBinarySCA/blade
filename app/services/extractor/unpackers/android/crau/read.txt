@@ -1,0 +1,10 @@
+download proto
+    https://android.googlesource.com/platform/system/update_engine/+/HEAD/update_metadata.proto
+
+generate update_metadata_pb2.py
+    python -m pip install grpcio-tools
+    python -m grpc_tools.protoc -I=. --python_out=. update_metadata.proto
+
+
+payload_dumper
+https://gist.github.com/ius/42bd02a5df2226633a342ab7a9c60f15
