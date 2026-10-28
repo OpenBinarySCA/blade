@@ -9,7 +9,8 @@
 
 BLADE detects third-party libraries (TPLs) reused in compiled C/C++ binaries. It retrieves
 candidate libraries by string and symbol feature matching, then uses an LLM to verify each
-candidate against structured evidence. BLADE was published at ISSTA 2026 and received an
+candidate against structured evidence. BLADE was published at ISSTA 2026
+([paper](https://chengyueliu.github.io/files/papers/issta2026-blade.pdf)) and received an
 ACM SIGSOFT Distinguished Paper Award.
 
 > **Reproducing the paper?** Use the [`issta2026`](https://github.com/OpenBinarySCA/blade/tree/issta2026)
