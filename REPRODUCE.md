@@ -4,29 +4,41 @@
 > *Beyond Similarity Scores: Evidence-Based Third-Party Library Detection for C/C++ Binaries.*
 > Proc. ACM Softw. Eng. 3, ISSTA, Article ISSTA034. https://doi.org/10.1145/3832125
 
-## 1. Recompute the tables from the experiment results
+Reproduction has three steps:
 
-No LLM, database or network is needed (Python ≥ 3.11, standard library only; matplotlib is
-optional for the Figure 10 PNG).
+1. [Rebuild the benchmark](#1-rebuild-the-benchmark)
+2. [Re-run the experiments](#2-re-run-the-experiments)
+3. [Recompute the paper's tables and figure](#3-recompute-the-papers-tables-and-figure)
 
-```bash
-python3 reproduce.py --check          # Table 3 and Table 5 headline numbers
-python3 reproduce.py --scope full     # all tables, Figure 10, exclusion and error analysis
-python3 reproduce.py --only table4    # a single table
-```
+The experiment results used in the paper are included in this repository, so step 3 can be run
+directly without steps 1 and 2.
 
-## 2. Re-run detection
-
-### Data
+## 1. Rebuild the benchmark
 
 The benchmark ground truth is `data/benchmarks/conan_bench/conan_benchmark.json`
-(3,403 binaries, 1,016 libraries, 3,771 reuse relations). The benchmark binaries and the TPL
-database snapshot are large and are provided separately; please open an issue to obtain them.
-Place the binaries under `data/benchmarks/conan_bench/test_cases/`. The scripts used to build the
-benchmark from Conan packages are in `data_management/benchmark_management/conan_benchmark_generation/`
-(see its README).
+(3,403 binaries, 1,016 libraries, 3,771 reuse relations). The benchmark binaries are large and are
+provided separately; please open an issue to obtain them.
+
+To rebuild the binaries from Conan packages (Ubuntu 22.04, Conan 2.x, GCC 11, Clang and the
+AArch64 cross toolchain), run from the repository root:
+
+```bash
+M=data_management.benchmark_management.conan_benchmark_generation
+python -m $M.conan_libs_builder.batch_build_conan_libs  # build the libraries under the three configurations
+python -m $M.compiled_files_parser                      # collect binaries and dependency metadata
+python -m $M.conan_benchmark_generater                  # derive library-reuse labels
+python -m $M.conan_benchmark_converter                  # convert to the benchmark format
+python -m $M.conan_benchmark_copyer                     # copy and strip binaries into data/benchmarks/conan_bench/test_cases/
+```
+
+See [`conan_benchmark_generation/README.md`](data_management/benchmark_management/conan_benchmark_generation/README.md)
+for setup details.
 
 The in-vehicle dataset (Table 5) is proprietary and is not distributed.
+
+## 2. Re-run the experiments
+
+Place the benchmark binaries under `data/benchmarks/conan_bench/test_cases/`.
 
 ### Environment
 
@@ -54,6 +66,8 @@ OPENAI_API_KEY=...
 
 ### TPL database
 
+The TPL feature database snapshot is provided separately (please open an issue to obtain it).
+
 ```bash
 scripts/deploy_debug_infra.sh
 scripts/restore_tpl_data.sh --debug <tpl_data_backup>.sql
@@ -74,9 +88,16 @@ scripts/restore_tpl_data.sh --debug <tpl_data_backup>.sql
 Results are written to `data/benchmarks/<benchmark>/runs/<model or experiment>/<timestamp>/`.
 LLM outputs are not fully deterministic, so re-runs give results close to the reported ones.
 
-## Results in this repository
+## 3. Recompute the paper's tables and figure
 
-All under `data/benchmarks/`:
+From the results included in `data/benchmarks/*/results/` (Python ≥ 3.11, standard library only;
+no LLM, database or network needed; matplotlib is optional for the Figure 10 PNG):
+
+```bash
+python3 reproduce.py                  # Tables 2–5
+python3 reproduce.py --scope full     # also Figure 10, exclusion and error analysis
+python3 reproduce.py --only table4    # a single table
+```
 
 | Paper item | Result |
 |------------|--------|
@@ -89,3 +110,5 @@ All under `data/benchmarks/`:
 | Table 4 w/o Category-Guided Verification | `conan_bench/results/wo_category_guided_verification/` |
 | Table 4 w/o Verification, Figure 10 | `conan_bench/results/retrieval_only/` |
 | Table 5 | `car_bench/results/gpt-5/` |
+
+All paths are under `data/benchmarks/`.
