@@ -1,0 +1,105 @@
+/**
+ * BLADE Theme System — "Workbench" redesign
+ *
+ * Design tokens.
+ * Light is the DEFAULT (:root); dark is opt-in via [data-theme="dark"].
+ * Light = gray canvas (--bg) + white chrome (--surface-1); this separation
+ * is what makes header/rail/cards read as distinct.
+ */
+
+/* ============ Light theme (DEFAULT) ============ */
+:root {
+  /* Fonts */
+  --ui-font: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --mono-font: 'IBM Plex Mono', 'SFMono-Regular', ui-monospace, monospace;
+
+  /* Type scale — exactly 6 sizes */
+  --t-display: 40px;
+  --t-h1: 20px;
+  --t-body: 14px;
+  --t-sm: 13px;
+  --t-meta: 12px;
+  --t-micro: 11px;
+
+  /* Surfaces — gray canvas, white chrome */
+  --bg: #E9ECF1;
+  --surface-1: #FFFFFF;
+  --surface-2: #FAFAFA;
+  --surface-3: #F0F1F2;
+  --surface-4: #E6E8EB;
+
+  /* Lines */
+  --line: #E6E8EB;
+  --line-soft: #F0F1F2;
+  --line-strong: #D4D7DD;
+
+  /* Text */
+  --text-1: #1D2129;
+  --text-2: #3A4150;
+  --text-3: #5F6675;
+  --mono: #272B33;
+
+  /* Accent — teal, interactive/selected ONLY */
+  --accent: #0E9C90;
+  --accent-bright: #12B0A2;
+  --accent-dim: rgba(14, 156, 144, .11);
+  --accent-line: rgba(14, 156, 144, .32);
+  --accent-ink: #FFFFFF;
+
+  /* Status */
+  --warn: #A8730C;
+  --warn-dim: rgba(168, 115, 12, .12);
+  --crit: #CC4444;
+
+  /* Radius / shadow / grid */
+  --r1: 4px;
+  --r2: 6px;
+  --r3: 8px;
+  --shadow: 0 1px 2px rgba(16, 21, 33, .06), 0 12px 28px -16px rgba(16, 21, 33, .20);
+  --grid: rgba(16, 21, 33, .010);
+}
+
+/* ============ Dark theme ============ */
+[data-theme="dark"] {
+  --bg: #090B10;
+  --surface-1: #0E1118;
+  --surface-2: #141823;
+  --surface-3: #1A1F2B;
+  --surface-4: #222836;
+
+  --line: #222A38;
+  --line-soft: #192030;
+  --line-strong: #323B4D;
+
+  --text-1: #E9ECF2;
+  --text-2: #98A2B5;
+  --text-3: #7A8499;
+  --mono: #C2C9D6;
+
+  --accent: #2FD4C4;
+  --accent-bright: #5BEDDC;
+  --accent-dim: rgba(47, 212, 196, .12);
+  --accent-line: rgba(47, 212, 196, .35);
+  --accent-ink: #04201D;
+
+  --warn: #E0A23C;
+  --warn-dim: rgba(224, 162, 60, .13);
+  --crit: #E5605F;
+
+  --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 28px -14px rgba(0, 0, 0, .5);
+  --grid: rgba(255, 255, 255, .012);
+}
+
+/* ============ Theme change transition ============ */
+html {
+  color-scheme: light dark;
+}
+
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *::before,
+html.theme-transition *::after {
+  transition: background-color 0.18s ease,
+              border-color 0.18s ease,
+              color 0.18s ease !important;
+}

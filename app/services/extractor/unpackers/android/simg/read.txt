@@ -1,0 +1,12 @@
+android sparse image format
+    https://android.googlesource.com/platform/system/core/+/master/libsparse/sparse_format.h
+
+simg2img
+    https://android.googlesource.com/platform/system/core/+/master/libsparse/simg2img.c
+
+另一个解析参考
+    https://android.googlesource.com/platform/external/avb/+/master/avbtool.py
+
+
+simg2img.py
+    https://gist.github.com/TwizzyIndy/8319d240a326a19422a97b998610a693

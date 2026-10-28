@@ -1,0 +1,7 @@
+# Build context = only what compose/Dockerfile copies
+*
+!requirements.txt
+!app/
+!compose/start.sh
+**/__pycache__/
+**/*.pyc

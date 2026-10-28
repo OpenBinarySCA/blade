@@ -1,0 +1,84 @@
+# Production Application - Frontend, Backend, Nginx
+# Usage: docker compose -f docker-compose-app-prod.yml up -d --build
+# Requires: blade-network-prod (created by docker-compose-infra-prod.yml)
+
+services:
+  blade-api:
+    build:
+      context: ..
+      dockerfile: compose/Dockerfile
+    image: blade-api:latest
+    container_name: blade_api_prod
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Shanghai
+      - MAX_UPLOAD_SIZE=524288000
+      - LIMIT_REQUEST_LINE=0
+      - LIMIT_REQUEST_FIELDS=0
+      - LIMIT_REQUEST_FIELD_SIZE=0
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - ../.env:/app/.env
+      - ../app:/app/app
+      - ./blade_containers_data/prod/api_data/workspace:/app/workspace
+    networks:
+      - blade-network-prod
+
+  blade-celery-worker:
+    build:
+      context: ..
+      dockerfile: compose/Dockerfile
+    image: blade-api:latest
+    container_name: blade_celery_worker_prod
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Shanghai
+    command: celery -A app.celery_tasks.celery_app worker -Q tpl_detection_tasks,batch_refresh_tasks --loglevel=info --concurrency=4
+    volumes:
+      - /etc/localtime:/etc/localtime
+      - ../.env:/app/.env
+      - ../app:/app/app
+      - ./blade_containers_data/prod/celery_data/workspace:/app/workspace
+    networks:
+      - blade-network-prod
+
+  blade-web:
+    build:
+      context: ../web
+      dockerfile: Dockerfile
+    image: blade-web:latest
+    container_name: blade_web_prod
+    restart: unless-stopped
+    networks:
+      - blade-network-prod
+
+  blade-admin-web:
+    build:
+      context: ../admin-web
+      dockerfile: Dockerfile
+    image: blade-admin-web:latest
+    container_name: blade_admin_web_prod
+    restart: unless-stopped
+    ports:
+      - "2001:80"
+    networks:
+      - blade-network-prod
+
+  blade-nginx:
+    image: nginx:alpine
+    container_name: blade_nginx_prod
+    restart: unless-stopped
+    depends_on:
+      - blade-web
+      - blade-admin-web
+      - blade-api
+    ports:
+      - "2000:80"
+    volumes:
+      - ./nginx/nginx-proxy.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - blade-network-prod
+
+networks:
+  blade-network-prod:
+    external: true
